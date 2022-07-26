@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Родика Давлетшина](https://up.htmlacademy.ru/adaptive/26/user/2114175).
-* Наставник: `Дмитрий Гуляев`(https://up.htmlacademy.ru/adaptive/26/user/2114175).
+* Наставник: [Дмитрий Гуляев](https://up.htmlacademy.ru/adaptive/26/user/2114175).
 
 ---
 
