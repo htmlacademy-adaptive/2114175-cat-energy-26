@@ -2,7 +2,7 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Кэт энерджи</title>
+    <title>Форма</title>
   </head>
   <body class="page__body">
     <header class="main-header">
@@ -33,6 +33,148 @@
         </div>
       </nav>
     </header>
+
+    <main class="main-form">
+      <h1 class="visually-hidden">Форма подбора программы</h1>
+      <p>Заполните анкету, и мы подберем <br>программу питания для вашего кота</p>
+      <form class="main-form__form-user-data">
+        <div class="form-user-data__user-data">
+          <div class="user-data__name-weight-container">
+            <div class="name-weight-container__user-name">
+              <label class="user-name__appointment-name appointment-style" for="appointment-name">Имя:*</label>
+              <div class="user-name__form-name-container">
+                <input class="form-name-container__form-name form-style" type="text" id="appointment-name" name="appointment-name" placeholder="Барсик" required>
+              </div>
+            </div>
+
+            <div class="name-weight-container__user-weight">
+              <label class="user-weight__appointment-weight appointment-style" for="appointment-weight">Вес (кг):*</label>
+              <div class="user-weight__form-weight-container">
+                <input class="form-weight-container__form-weight form-style" type="text" id="appointment-weight" name="appointment-weight" placeholder="7" required>
+              </div>
+            </div>
+
+            <div class="name-weight-container__user-age">
+              <label class="user-age__appointment-age appointment-style" for="appointment-age">Возраст (лет):</label>
+              <div class="user-age__form-date-container">
+                <input class="form-date-container__form-date form-style" type="text" id="appointment-age" name="appointment-age" placeholder="7" required>
+              </div>
+            </div>
+          </div>
+
+          <fieldset class="user-data__filter-radiobox">
+            <legend class="visually-hidden">Тип программы</legend>
+            <ul class="filter-radiobox__filter-list">
+              <li class="filter-list__filter-item">
+                <label class="filter-item__filter-title" for="weight-loss">
+                  <input class="filter-title__control-input control-input visually-hidden" type="radio" id="weight-loss" name="weight-loss" value="weight-loss" checked>
+                  <span class="filter-title__control-mark radio"></span>
+                  <span class="filter-title__control-input-name">Похудение</span>
+                </label>
+              </li>
+              <li class="filter-list__filter-item">
+                <label class="filter-item__filter-title" for="pumping">
+                  <input class="filter-title__control-input control-input visually-hidden" type="radio" id="pumping" name="pumping" value="pumping" >
+                  <span class="filter-title__control-mark radio"></span>
+                  <span class="filter-title__control-input-name">Набор массы</span>
+                </label>
+              </li>
+              <li class="filter-list__filter-item">
+                <label class="filter-item__filter-title" for="advice">
+                  <input class="filter-title__control-input control-input visually-hidden" type="radio" id="advice" name="advice" value="advice">
+                  <span class="filter-title__control-mark radio"></span>
+                  <span class="filter-title__control-input-name">Не знаю (Нужен ваш совет)</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+
+        <div class="user-data__user-contacts">
+          <h2 class="user-contacts__user-contacts-title">Контактные данные (владельца кота)</h2>
+          <div class="user-contacts__phone-email-container">
+            <div class="phone-email-container__user-email">
+              <label class="user-email__appointment-email" for="appointment-email">E-mail:*</label>
+              <div class="user-email__form-email-container">
+                <input class="form-email-container__form-email form-email-style" type="text" id="appointment-email" name="appointment-email" placeholder="kuklachev@gmail.com" required>
+                <a class="form-email-container__form-email-link" href="#">
+                  <img class="form-email-link__email-image" src="../source/img/icon_email.svg" width="20" height="14" alt="Иконка почтового письма.">
+                </a>
+              </div>
+            </div>
+
+            <div class="phone-email-container__user-phone">
+              <label class="user-phone__appointment-phone" for="appointment-phone">Телефон:*</label>
+              <div class="user-phone__form-phone-container">
+                <input class="form-phone-container__form-phone form-phone-style" type="text" id="appointment-phone" name="appointment-phone" placeholder="8 (960) 900-60-90" required>
+                <a class="form-phone-container__form-phone-link" href="#">
+                  <img class="form-phone-link__phone-image" src="../source/img/icon-phone.svg" width="20" height="20" alt="Иконка телефонной трубки.">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="user-data__user-comment">
+          <h2 class="user-comment__user-comment-title">Комментарий</h2>
+          <label class="visually-hidden" for="comment">Введите в поле текст</label>
+          <textarea class="user-comment__comment" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
+        </div>
+
+        <div class="user-data__user-additionally">
+          <h2 class="user-additionally__user-additionally-title">Дополнительно</h2>
+          <div class="user-additionally__filter-checkbox">
+            <h3 class="visually-hidden">Выбрать желаемые продукты для программы</h3>
+            <ul class="filter-checkbox__checkbox-filter-list">
+              <li class="checkbox-filter-list__checkbox-filter-item">
+                <label class="checkbox-filter-item__checkbox-filter-title" for="sweetener">
+                  <input class="visually-hidden checkbox-control-input" type="checkbox" id="sweetener" name="sweetener" checked>
+                  <span class="checkbox-filter-title__checkbox-control-mark checkbox"></span>
+                  <span class="checkbox-filter-title__checkbox-input-name">Cахарозаменитель</span>
+                </label>
+              </li>
+              <li class="checkbox-filter-list__checkbox-filter-item">
+                <label class="checkbox-filter-item__checkbox-filter-title" for="water">
+                  <input class="visually-hidden checkbox-control-input" type="checkbox" id="water" name="water">
+                  <span class="checkbox-filter-title__checkbox-control-mark checkbox"></span>
+                  <span class="checkbox-filter-title__checkbox-input-name">Питьевая вода</span>
+                </label>
+              </li>
+              <li class="checkbox-filter-list__checkbox-filter-item">
+                <label class="checkbox-filter-item__checkbox-filter-title" for="milk">
+                  <input class="visually-hidden checkbox-control-input" type="checkbox" id="milk" name="milk">
+                  <span class="checkbox-filter-title__checkbox-control-mark checkbox"></span>
+                  <span class="checkbox-filter-title__checkbox-input-name">Молоко</span>
+                </label>
+              </li>
+              <li class="checkbox-filter-list__checkbox-filter-item">
+                <label class="checkbox-filter-item__checkbox-filter-title" for="vitamins">
+                  <input class="visually-hidden checkbox-control-input" type="checkbox" id="vitamins" name="vitamins">
+                  <span class="checkbox-filter-title__checkbox-control-mark checkbox"></span>
+                  <span class="checkbox-filter-title__checkbox-input-name">Витамины</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="user-data__data-button-container">
+          <button class="data-button-container__data-button" type="submit">Отправить заявку</button>
+          <p class="data-button-container__data-info">* — Обязательные поля</p>
+        </div>
+      </form>
+
+      <div class="main-container__location-form">
+        <div class="location__location-info">
+          <p class="location-info__invitation">Приглашаем к сотрудничеству дилеров!</p>
+          <p class="location-info__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </div>
+        <div class="location__address-map">
+          <img class="address-map__map" src="../source/img/map.jpg" width="320" height="362" alt="Карта проезда.">
+          <img class="address-map__map-pin" src="../source/img/map-pin.png" width="57" height="52" alt="Точка на карте.">
+        </div>
+      </div>
+    </main>
 
     <footer class="main-footer">
       <div class="main-footer__wrapper">
