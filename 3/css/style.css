@@ -193,10 +193,10 @@ body {
 
 .choice-program {
   position: relative;
-  padding: 27px 0 164px 0;
+  padding: 27px 20px 164px;
   color: #ffffff;
   z-index: 1;
-  background: url("/img/choice-program-bg.png") no-repeat;
+  background: url("img/choice-program-bg.png") no-repeat;
 }
 .choice-program::before {
   content: "";
@@ -217,6 +217,7 @@ body {
 }
 
 .choice-title {
+  font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   text-align: center;
@@ -652,7 +653,7 @@ body {
   min-height: 188px;
   color: #ffffff;
   z-index: 1;
-  background: url("/img/advertising-bg.png") no-repeat;
+  background: url("img/advertising-bg.png") no-repeat;
 }
 .advertising::before {
   content: "";
