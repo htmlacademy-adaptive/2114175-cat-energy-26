@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Oswald";
-  src: url("/fonts/oswaldregular.woff2") format("woff2"), url("/fonts/oswaldregular.woff") format("woff");
+  src: url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Oswald medium";
-  src: url("/fonts/oswaldmedium.woff2") format("woff2"), url("/fonts/oswaldmedium.woff") format("woff");
+  src: url("../fonts/oswaldmedium.woff2") format("woff2"), url("../fonts/oswaldmedium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Arial";
-  src: url("/fonts/arialregular.woff2") format("woff2"), url("/fonts/arialregular.woff") format("woff");
+  src: url("../fonts/arialregular.woff2") format("woff2"), url("../fonts/arialregular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -196,7 +196,7 @@ body {
   padding: 27px 20px 164px;
   color: #ffffff;
   z-index: 1;
-  background: url("img/choice-program-bg.png") no-repeat;
+  background: url("/img/choice-program-bg.png") no-repeat;
 }
 .choice-program::before {
   content: "";
@@ -653,7 +653,7 @@ body {
   min-height: 188px;
   color: #ffffff;
   z-index: 1;
-  background: url("img/advertising-bg.png") no-repeat;
+  background: url("/img/advertising-bg.png") no-repeat;
 }
 .advertising::before {
   content: "";
@@ -781,6 +781,7 @@ body {
 
 .filter-item {
   margin: 0;
+  margin-bottom: 15px;
   padding: 0;
 }
 
