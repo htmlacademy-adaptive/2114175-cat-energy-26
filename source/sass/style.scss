@@ -12,7 +12,6 @@
 @use "./blocks/footer/social-list.scss";
 @use "./blocks/footer/copyright-link.scss";
 @use "./blocks/main-container/main-container.scss";
-@use "./blocks/main-container/program-selection/program-selection.scss";
 @use "./blocks/main-container/program-selection/choice-container/choice-container.scss";
 @use "./blocks/main-container/program-selection/choice-container/choice-program.scss";
 @use "./blocks/main-container/program-selection/choice-container/choice-promo.scss";
@@ -32,7 +31,6 @@
 @use "./blocks/main-container/promo/range-scale.scss";
 @use "./blocks/main-container/promo/range-toggle.scss";
 @use "./blocks/main-catalog/main-catalog.scss";
-@use "./blocks/main-catalog/catalog-list-container/catalog-list-container.scss";
 @use "./blocks/main-catalog/catalog-list-container/catalog-list.scss";
 @use "./blocks/main-catalog/catalog-list-container/item-wrapper.scss";
 @use "./blocks/main-catalog/catalog-list-container/catalog-item.scss";
@@ -54,8 +52,6 @@
 @use "./blocks/main-catalog/additional-container/advertising/advertising-link.scss";
 @use "./blocks/main-form/main-form.scss";
 @use "./blocks/main-form/form-wrapper/form-wrapper.scss";
-@use "./blocks/main-form/form-user/form-user.scss";
-@use "./blocks/main-form/form-user/user-data/user-data.scss";
 @use "./blocks/main-form/form-user/user-data/name-weight-container/name-weight-container.scss";
 @use "./blocks/main-form/form-user/user-data/name-weight-container/user-name.scss";
 @use "./blocks/main-form/form-user/user-data/name-weight-container/form-name-container.scss";
@@ -71,7 +67,6 @@
 @use "./blocks/main-form/form-user/user-data/user-contacts/phone-icon.scss";
 @use "./blocks/main-form/form-user/user-data/user-comment/user-comment.scss";
 @use "./blocks/main-form/form-user/user-data/user-additionally/user-additionally.scss";
-@use "./blocks/main-form/form-user/user-data/user-additionally/filter-checkbox.scss";
 @use "./blocks/main-form/form-user/user-data/user-additionally/checkbox-list.scss";
 @use "./blocks/main-form/form-user/user-data/user-additionally/checkbox-item.scss";
 @use "./blocks/main-form/form-user/user-data/user-additionally/checkbox-title.scss";
