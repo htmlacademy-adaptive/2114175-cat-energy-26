@@ -1,0 +1,29 @@
+.slim-item {
+  padding: 20px 20px 18px 20px;
+  margin-bottom: 20px;
+  background-color: #F2F2F2;
+
+  &__info {
+    margin: 21px 0 15px 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.slim-info {
+  font-family: 'Arial', sans-serif;
+  padding-bottom: 22px;
+  color: #444444;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.slim-link {
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+

@@ -1,0 +1,36 @@
+.promo-item {
+  position: relative;
+
+  &__label {
+    left: 18px;
+    top: 5px;
+  }
+}
+
+.promo-item:last-child {
+  .promo-value {
+    padding: 7px 20px 11px;
+  }
+}
+
+.promo-value {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 7px 41px 11px 42px;
+  border: 1px solid #CDCDCD;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.promo-label {
+  display: block;
+  position: relative;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  width: 87px;
+  background-color: #EAEAEA;
+  color: #444444;
+  text-align: center;
+}

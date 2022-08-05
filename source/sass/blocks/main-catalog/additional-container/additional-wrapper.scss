@@ -1,0 +1,20 @@
+.additional-wrapper {
+  position: relative;
+  min-height: 40px;
+  text-align: center;
+
+  &__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 53px;
+    width: calc(100% - 106px);
+    background-color: #68B738;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}

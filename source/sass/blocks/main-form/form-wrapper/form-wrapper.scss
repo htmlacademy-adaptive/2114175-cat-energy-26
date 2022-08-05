@@ -1,0 +1,25 @@
+.form-wrapper {
+  padding: 27px 20px 39px 20px;
+
+  &__title {
+    margin: 0;
+  }
+
+  &__info {
+    margin: 0;
+    margin-top: 37px;
+  }
+}
+
+.main-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  padding: 0;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.main-info {
+  padding: 0;
+  text-transform: uppercase;
+}

@@ -1,0 +1,21 @@
+.copyright-link {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 20px 21px;
+  text-decoration: none;
+
+  &__text {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    width: 114px;
+    margin-top: 6px;
+    text-decoration: none;
+    color: #444444;
+  }
+
+  &__logo {
+    width: 27px;
+    height: 34px;
+  }
+}

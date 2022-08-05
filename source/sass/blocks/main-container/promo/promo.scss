@@ -1,0 +1,26 @@
+.promo {
+  padding: 25px 20px 40px;
+  background-color: #EAEAEA;
+
+  &__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0;
+  }
+
+  &__info {
+    font-family: "Arial", sans-serif;
+    color: #444444;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  &__price {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
