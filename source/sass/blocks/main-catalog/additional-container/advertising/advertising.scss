@@ -2,10 +2,9 @@
   position: relative;
   padding: 59px 61px 42px 58px;
   min-height: 188px;
-  color: #FFFFFF;
+  color: #ffffff;
   z-index: 1;
-  background: url(/img/advertising-bg.png) no-repeat;
-
+  background: url("/img/advertising-bg.png") no-repeat;
   &::before {
     content: "";
     width: 100%;

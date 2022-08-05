@@ -1,9 +1,9 @@
 .choice-program {
   position: relative;
   padding: 27px 0 164px 0;
-  color: #FFFFFF;
+  color: #ffffff;
   z-index: 1;
-  background: url(/img/choice-program-bg.png) no-repeat;
+  background: url("/img/choice-program-bg.png") no-repeat;
   &::before {
     content: "";
     width: 100%;

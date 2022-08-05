@@ -2,7 +2,6 @@
   position: relative;
   min-height: 40px;
   text-align: center;
-
   &__button {
     position: absolute;
     top: 0;
@@ -12,9 +11,9 @@
     font-size: 16px;
     line-height: 20px;
     padding: 8px 53px;
-    width: calc(100% - 106px);
-    background-color: #68B738;
+    width: calc("100% - 106px");
+    background-color: #68b738;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }

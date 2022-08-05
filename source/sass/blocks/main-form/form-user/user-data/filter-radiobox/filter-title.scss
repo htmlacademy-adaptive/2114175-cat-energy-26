@@ -1,11 +1,9 @@
 .filter-title {
   display: flex;
   align-items: center;
-
   &__mark {
     margin-right: 15px;
   }
-
   &__name {
     font-size: 16px;
     line-height: 18px;
@@ -16,6 +14,6 @@
 .control-mark{
   width: 28px;
   height:28px;
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
   border-radius: 50%;
 }

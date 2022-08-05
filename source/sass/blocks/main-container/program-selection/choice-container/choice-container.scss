@@ -1,13 +1,11 @@
 .choice-container {
   min-height: 480px;
   position: relative;
-
   &__promo {
     position: absolute;
     top: 167px;
     margin-left: 20px;
   }
-
   &__button {
     margin: 138px 20px 0;
   }
@@ -17,10 +15,10 @@
   font-family: inherit;
   padding: 11px 26px;
   position: absolute;
-  width: calc(100% - 92px);
+  width: calc("100% - 92px");
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
   color: #FFFFFF;
-  background-color: #68B738;
+  background-color: #68b738;
 }
