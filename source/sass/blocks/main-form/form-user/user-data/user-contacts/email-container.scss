@@ -1,12 +1,11 @@
 .email-container {
   position: relative;
-  &__link {
-
-  }
+  flex-grow: 1;
 }
 .input-email {
   margin: 0;
-  padding: 14px 51px 14px 15px;
+  width: calc(100% - 68px);
+  padding: 15px 51px 15px 15px;
   border: 1px solid #CDCDCD;
 
   &::placeholder {
@@ -16,5 +15,19 @@
     text-transform: uppercase;
     color: #444444;
   }
+}
 
+.input-phone {
+  margin: 0;
+  width: calc(100% - 68px);
+  padding: 15px 51px 15px 15px;
+  border: 1px solid #CDCDCD;
+
+  &::placeholder {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #444444;
+  }
 }

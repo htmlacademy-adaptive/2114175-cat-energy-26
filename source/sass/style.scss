@@ -89,5 +89,17 @@
 
 @use "./blocks/main-form/form-user/user-data/user-contacts/user-contacts.scss";
 @use "./blocks/main-form/form-user/user-data/user-contacts/user-email.scss";
+@use "./blocks/main-form/form-user/user-data/user-contacts/phone-email-container.scss";
 @use "./blocks/main-form/form-user/user-data/user-contacts/email-container.scss";
-@use "./blocks/main-form/form-user/user-data/user-contacts/email-link.scss";
+@use "./blocks/main-form/form-user/user-data/user-contacts/email-icon.scss";
+@use "./blocks/main-form/form-user/user-data/user-contacts/phone-icon.scss";
+
+@use "./blocks/main-form/form-user/user-data/user-comment/user-comment.scss";
+
+@use "./blocks/main-form/form-user/user-data/user-additionally/user-additionally.scss";
+@use "./blocks/main-form/form-user/user-data/user-additionally/filter-checkbox.scss";
+@use "./blocks/main-form/form-user/user-data/user-additionally/checkbox-list.scss";
+@use "./blocks/main-form/form-user/user-data/user-additionally/checkbox-item.scss";
+@use "./blocks/main-form/form-user/user-data/user-additionally/checkbox-title.scss";
+
+@use "./blocks/main-form/form-user/user-data/button-container/button-container.scss";

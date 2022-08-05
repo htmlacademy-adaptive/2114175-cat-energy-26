@@ -1,0 +1,24 @@
+.user-comment {
+  padding: 0 20px 23px;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 34px;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  &__textarea {
+    padding: 9px 12px 9px 15px;
+    border: 1px solid #E7E7E7;
+  }
+
+  &__textarea::placeholder {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #444444;
+  }
+}

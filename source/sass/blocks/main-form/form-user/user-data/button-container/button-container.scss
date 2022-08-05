@@ -1,0 +1,35 @@
+.button-container {
+  position: relative;
+  padding: 0 20px 32px;
+  text-align: center;
+  min-height: 77px;
+
+  &__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__info {
+    position: absolute;
+    top: 61px;
+    left: 82px;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    line-height: 16px;
+  }
+}
+
+.form-button {
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #68B738;
+  max-height: 24px;
+  width: calc(100% - 106px);
+  padding: 8px 53px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}

@@ -1,4 +1,4 @@
-.filter-title {
+.checkbox-title {
   display: flex;
   align-items: center;
 
@@ -13,9 +13,8 @@
   }
 }
 
-.control-mark{
-  width: 28px;
-  height:28px;
+.checkbox-mark {
+  width: 24px;
+  height:24px;
   border: 1px solid #CDCDCD;
-  border-radius: 50%;
 }
