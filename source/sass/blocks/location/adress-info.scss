@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 26px;
+
   &__invitation {
     width: 140px;
     margin: 0;
@@ -10,6 +11,7 @@
     color: #111111;
     text-transform: uppercase;
   }
+
   &__address {
     font-family: "Arial", sans-serif;
     font-size: 14px;
@@ -21,6 +23,7 @@
 }
 
 .address {
+
   &__address2 {
     font-family: "Arial", sans-serif;
     font-size: 14px;

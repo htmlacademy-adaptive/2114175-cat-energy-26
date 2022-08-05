@@ -1,9 +1,11 @@
 .checkbox-title {
   display: flex;
   align-items: center;
+
   &__mark {
     margin-right: 15px;
   }
+
   &__name {
     font-size: 16px;
     line-height: 18px;
@@ -13,6 +15,6 @@
 
 .checkbox-mark {
   width: 24px;
-  height:24px;
+  height: 24px;
   border: 1px solid #cdcdcd;
 }

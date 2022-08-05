@@ -1,5 +1,6 @@
 .promo-item {
   position: relative;
+
   &__label {
     left: 18px;
     top: 5px;
@@ -7,6 +8,7 @@
 }
 
 .promo-item:last-child {
+
   .promo-value {
     padding: 7px 20px 11px;
   }
