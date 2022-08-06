@@ -7,29 +7,3 @@
     margin: 9px 17px 0;
   }
 }
-
-.slim-image {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #68b738;
-
-  &__image {
-    position: absolute;
-    bottom: 3px;
-    left: 7px;
-  }
-}
-
-.pro-image {
-  position: absolute;
-  bottom: 11px;
-  left: -10px;
-}
-
-.slim-tiite {
-  font-size: 24px;
-  line-height: 37px;
-  text-transform: uppercase;
-}
