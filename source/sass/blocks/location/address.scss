@@ -1,0 +1,17 @@
+.address {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  width: 141px;
+  margin: 0;
+  color: #444444;
+
+  &__city {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}

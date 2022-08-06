@@ -1,0 +1,12 @@
+.info-title {
+  max-width: 81px;
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    text-transform: uppercase;
+  }
+}

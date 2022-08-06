@@ -1,0 +1,25 @@
+.additional-item {
+  padding: 13px 0 17px 0;
+  border-top: 1px solid #cdcdcd;
+
+  &:last-child {
+    border-bottom: 1px solid #cdcdcd;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #222222;
+  }
+
+  &__list {
+    margin-top: 13px;
+  }
+
+  &__button {
+    margin-top: 15px;
+  }
+}

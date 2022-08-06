@@ -1,0 +1,21 @@
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  max-width: 140px;
+
+  &__term {
+    margin: 0;
+    padding: 0;
+    text-align: start;
+  }
+
+  &__definition {
+    margin: 0;
+    padding: 0;
+    text-align: end;
+  }
+}

@@ -1,0 +1,14 @@
+.filter-title {
+  display: flex;
+  align-items: center;
+
+  &__mark {
+    margin-right: 15px;
+  }
+
+  &__name {
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+}

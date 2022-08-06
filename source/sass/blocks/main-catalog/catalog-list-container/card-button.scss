@@ -1,0 +1,17 @@
+.card-button {
+  display: block;
+  background-color: #68b738;
+  width: calc(100% - 106px);
+  padding: 10px 53px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+
+  &--new {
+    background-color: #f2f2f2;
+    color: #444444;
+  }
+}
