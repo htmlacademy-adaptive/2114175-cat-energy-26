@@ -7,3 +7,18 @@
   height: 60px;
   background-color: #68b738;
 }
+
+@media (min-width: $tablet-width) {
+  .advantage-image {
+    margin-top: 40px;
+    min-width: 80px;
+    max-width: 80px;
+    height: 80px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantage-image {
+    margin-top: 40px;
+  }
+}

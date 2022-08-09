@@ -1,5 +1,22 @@
 .slim-list {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 20px 0 0;
   list-style-type: none;
+}
+
+@media (min-width: $tablet-width) {
+  .slim-list {
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slim-list {
+    width: 1220px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+  }
 }

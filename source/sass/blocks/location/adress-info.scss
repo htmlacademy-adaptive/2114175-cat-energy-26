@@ -2,13 +2,35 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 26px;
+  width: 280px;
 
   &__invitation {
-    width: 140px;
+    width: 127px;
     margin: 0;
     font-size: 16px;
     line-height: 20px;
     color: #111111;
     text-transform: uppercase;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .adress-info {
+    padding: 60px 70px 56px 70px;
+    width: 628px;
+
+    &__invitation {
+      width: 172px;
+      margin: 0;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .adress-info {
+    width: 405px;
+    padding: 56px 80px;
   }
 }

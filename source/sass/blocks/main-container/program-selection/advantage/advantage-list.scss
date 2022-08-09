@@ -1,4 +1,24 @@
 .advantage-list {
   padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   list-style-type: none;
+}
+
+@media (min-width: $tablet-width) {
+  .advantage-list {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 633px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantage-list {
+    width: 1224px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

@@ -1,9 +1,40 @@
 .map {
+  width: 320px;
+  height: 362px;
+  background: url("../img/map-mobile.png") no-repeat;
   position: relative;
 
   &__map-pin {
     position: absolute;
     top: 139px;
     left: 134px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .map {
+    width: 768px;
+    height: 400px;
+    background: url("../img/map-tablet.png") no-repeat;
+
+    &__map-pin {
+      width: 113px;
+      height: 106px;
+      top: 146px;
+      left: 333px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .map {
+    width: 1440px;
+    height: 400px;
+    background: url("../img/map-desktop.png") no-repeat;
+
+    &__map-pin {
+      top: 131px;
+      left: 908px;
+    }
   }
 }

@@ -1,0 +1,19 @@
+.social-link {
+  &__img {
+    fill: #666666;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .social-link {
+    width: 28px;
+    height: 22px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .social-link {
+    width: 28px;
+    height: 22px;
+  }
+}

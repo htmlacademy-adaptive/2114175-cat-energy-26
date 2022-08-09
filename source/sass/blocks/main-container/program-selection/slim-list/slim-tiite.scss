@@ -3,3 +3,22 @@
   line-height: 37px;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .slim-tiite {
+    font-size: 36px;
+    line-height: 36px;
+    order: 1;
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slim-tiite {
+    font-size: 36px;
+    line-height: 36px;
+    margin-left: 62px;
+    margin-top: 36px;
+    order: 2;
+  }
+}

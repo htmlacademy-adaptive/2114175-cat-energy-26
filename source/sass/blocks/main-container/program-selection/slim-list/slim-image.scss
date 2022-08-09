@@ -13,3 +13,39 @@
     left: 7px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .slim-image {
+    position: absolute;
+    order: 2;
+    width: 200px;
+    height: 200px;
+    right: 62px;
+    top: 82px;
+
+    &__image {
+      width: 140px;
+      height: 194px;
+      bottom: 17px;
+      left: 30px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slim-image {
+    position: relative;
+    order: 1;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 0;
+
+    &__image {
+      width: 70px;
+      height: 97px;
+      bottom: 15px;
+      left: 9px;
+    }
+  }
+}

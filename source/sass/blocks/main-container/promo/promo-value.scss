@@ -7,3 +7,18 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .promo-value {
+    padding: 14px 56px 11px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo-value {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
