@@ -2048,6 +2048,19 @@ body {
     line-height: 30px;
   }
 }
+.appointment-style {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+@media (min-width: 768px) {
+  .appointment-style {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
 .filter-radiobox {
   margin: 0;
   padding: 22px 0 4px;
