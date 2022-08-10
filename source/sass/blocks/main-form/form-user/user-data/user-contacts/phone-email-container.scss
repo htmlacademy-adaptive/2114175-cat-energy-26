@@ -1,6 +1,28 @@
 .phone-email-container {
+  display: flex;
+  flex-direction: column;
+
   &__email {
     margin: 0;
     margin-bottom: 14px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .phone-email-container {
+    &__email {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .phone-email-container {
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__email {
+      margin: 0;
+    }
   }
 }

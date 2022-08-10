@@ -17,3 +17,20 @@
     background-color: rgba(104, 183, 56, 0.85);
   }
 }
+
+@media (min-width: $tablet-width) {
+  .advertising {
+    padding: 57px 124px 60px 77px;
+    background-size: 100%;
+    background-position-y: -326px;
+    min-height: 82px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advertising {
+    background-size: auto;
+    background-position-y: 0;
+    padding: 56px 43px 42px 41px;
+  }
+}

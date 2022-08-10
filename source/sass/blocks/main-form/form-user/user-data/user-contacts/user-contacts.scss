@@ -1,4 +1,6 @@
 .user-contacts {
+  display: flex;
+  flex-direction: column;
   padding: 26px 20px 9px 20px;
 
   &__title {
@@ -7,5 +9,23 @@
     font-family: "Oswald", sans-serif;
     font-size: 24px;
     line-height: 26px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .user-contacts {
+    padding: 0 66px 65px 51px;
+
+    &__title {
+      margin-bottom: 76px;
+      font-size: 36px;
+      line-height: 36px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .user-contacts {
+    padding: 0 110px 69px 111px;
   }
 }

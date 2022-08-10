@@ -8,3 +8,23 @@
   color: #000000;
   background-color: #ffffff;
 }
+
+@media (min-width: $tablet-width) {
+  .nav-link {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .nav-link {
+    font-weight: 400;
+
+    &--colored {
+      color: #ffffff;
+      background-color: transparent;
+    }
+  }
+}

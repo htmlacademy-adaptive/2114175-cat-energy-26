@@ -1,4 +1,23 @@
 .info-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 0;
   list-style-type: none;
+  min-width: 138px;
+  max-width: 138px;
+}
+
+@media (min-width: $tablet-width) {
+  .info-list {
+    min-width: 246px;
+    max-width: 246px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .info-list {
+    min-width: 166px;
+    max-width: 166px;
+  }
 }

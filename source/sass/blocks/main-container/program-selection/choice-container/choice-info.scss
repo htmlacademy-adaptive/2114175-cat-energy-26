@@ -4,3 +4,17 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .choice-info {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: start;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .choice-info {
+    padding: 0;
+  }
+}

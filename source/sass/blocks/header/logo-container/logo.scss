@@ -1,0 +1,24 @@
+.logo {
+  width: 33px;
+}
+
+@media (min-width: $tablet-width) {
+  .logo {
+    width: 174px;
+    height: 52px;
+    background: url("../img/logo-tablet.svg") no-repeat;
+
+    &__image {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo {
+    padding: 0;
+    width: 202px;
+    height: 59px;
+    background: url("../img/logo-desktop.svg") no-repeat;
+  }
+}

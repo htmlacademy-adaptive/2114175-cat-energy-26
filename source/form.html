@@ -10,16 +10,16 @@
     <header class="main-header">
       <div class="main-header__container logo-container">
         <a class="logo-container__logo logo">
-          <img class="logo__logo-image" src="img/logo-mobile.svg" width="33" height="37" alt="Логотип кота.">
+          <img class="logo__image" src="img/logo-mobile.svg" width="33" height="37" alt="Логотип кота.">
         </a>
 
         <a class="logo-container__logo-text logo-text">
-          <img class="logo-text__logo-text-image" src="img/logo-text.svg" width="101" height="18" alt="Кэт энерджи.">
+          <img class="logo-text__image" src="img/logo-text.svg" width="101" height="18" alt="Кэт энерджи.">
         </a>
       </div>
 
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">
+      <nav class="main-header__nav main-nav">
+        <button class="main-nav__toggle nav-toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
         <div class="main-nav__wrapper">
@@ -141,7 +141,7 @@
         <div class="form-user__comment user-comment">
           <h2 class="user-comment__title">Комментарий</h2>
           <label class="visually-hidden" for="comment">Введите в поле текст</label>
-          <textarea class="user-comment__textarea" cols="37" rows="10" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
+          <textarea class="user-comment__textarea" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
         </div>
 
         <div class="form-user__additionally user-additionally">
@@ -196,8 +196,7 @@
           </p>
         </div>
         <div class="location__map map">
-          <img class="map__map" src="img/map.jpg" width="320" height="362" alt="Карта проезда.">
-          <img class="map__map-pin" src="img/map-pin.png" width="57" height="52" alt="Точка на карте.">
+          <img class="map__map-pin" src="img/map-pin.svg" width="57" height="52" alt="Точка на карте.">
         </div>
       </div>
     </main>

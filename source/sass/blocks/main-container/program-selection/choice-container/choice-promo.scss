@@ -1,3 +1,25 @@
 .choice-promo {
   z-index: 2;
 }
+
+@media (min-width: $tablet-width) {
+  .choice-promo {
+    z-index: -1;
+    width: 709px;
+    height: 609px;
+    background: url("../img/index-can-tablet.png") no-repeat;
+
+    &__image {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .choice-promo {
+    z-index: 1;
+    width: 552px;
+    height: 499px;
+    background: transparent url("../img/index-can-desktop.png") no-repeat;
+  }
+}

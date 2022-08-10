@@ -1,0 +1,15 @@
+.logo-text {
+  min-width: 101px;
+}
+
+@media (min-width: $tablet-width) {
+  .logo-text {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo-text {
+    display: none;
+  }
+}

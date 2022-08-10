@@ -10,6 +10,9 @@
   }
 
   &__textarea {
+    resize: none;
+    width: 280px;
+    height: 150px;
     padding: 9px 12px 9px 15px;
     border: 1px solid #e7e7e7;
   }
@@ -20,5 +23,39 @@
     line-height: 18px;
     text-transform: uppercase;
     color: #444444;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .user-comment {
+    padding: 0 67px 65px 69px;
+
+    &__title {
+      margin-bottom: 76px;
+      font-size: 36px;
+      line-height: 36px;
+    }
+
+    &__textarea {
+      margin-left: 1px;
+      width: 631px;
+      height: 174px;
+      padding: 10px 19px;
+    }
+
+    &__textarea::placeholder {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .user-comment {
+    padding: 0 110px 67px;
+
+    &__textarea {
+      width: 1220px;
+    }
   }
 }

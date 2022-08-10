@@ -1,5 +1,8 @@
 .additional-item {
-  padding: 13px 0 17px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 13px 0 17px;
   border-top: 1px solid #cdcdcd;
 
   &:last-child {
@@ -21,5 +24,58 @@
 
   &__button {
     margin-top: 15px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .additional-item {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 26px 38px 28px;
+    border-top: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    border-left: 1px solid #cdcdcd;
+
+    &:last-child {
+      border-bottom: 1px solid #cdcdcd;
+    }
+
+    &__title {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    &__list {
+      margin-top: 0;
+    }
+
+    &__button {
+      margin-top: 26px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .additional-item {
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 14px 1px 16px;
+    border-top: 1px solid #cdcdcd;
+    border-right: none;
+    border-left: none;
+    margin-top: 0;
+
+    &:last-child {
+      border-bottom: 1px solid #cdcdcd;
+    }
+
+    &__button {
+      margin-top: 0;
+    }
+
+    &__title {
+      min-width: 161px;
+    }
   }
 }

@@ -1,5 +1,5 @@
 .form-wrapper {
-  padding: 27px 20px 39px 20px;
+  padding: 27px 20px 39px;
 
   &__title {
     margin: 0;
@@ -8,5 +8,25 @@
   &__info {
     margin: 0;
     margin-top: 37px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .form-wrapper {
+    padding: 64px 65px 66px;
+
+    &__info {
+      margin-top: 54px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form-wrapper {
+    padding: 73px 110px 66px;
+
+    &__info {
+      margin-top: 56px;
+    }
   }
 }

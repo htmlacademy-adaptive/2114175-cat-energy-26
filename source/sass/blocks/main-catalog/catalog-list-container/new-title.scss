@@ -18,3 +18,28 @@
     color: #444444;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .new-title {
+    &__title {
+      margin: 0 auto 23px;
+      max-width: 155px;
+      font-size: 20px;
+      line-height: 22px;
+      font-weight: 400;
+    }
+
+    &__info {
+      margin: 0 auto;
+      max-width: 167px;
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .new-title {
+    max-width: 180px;
+  }
+}

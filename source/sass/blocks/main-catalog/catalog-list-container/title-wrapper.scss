@@ -1,9 +1,36 @@
 .title-wrapper {
+  display: flex;
+  flex-direction: column;
   width: 140px;
   height: 112px;
 
   &__list {
     margin: 0;
     margin-top: 18px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .title-wrapper {
+    align-items: center;
+    width: 251px;
+    height: 157px;
+
+    &__list {
+      margin: 0;
+      margin-top: 21px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .title-wrapper {
+    width: 169px;
+    height: 156px;
+
+    &__list {
+      margin: 0;
+      margin-top: 22px;
+    }
   }
 }

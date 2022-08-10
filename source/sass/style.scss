@@ -4,8 +4,12 @@
 @import "./blocks/visually-hidden.scss";
 @import "./blocks/header/main-header.scss";
 @import "./blocks/header/logo-container/logo-container.scss";
+@import "./blocks/header/logo-container/logo-text";
+@import "./blocks/header/logo-container/logo.scss";
 @import "./blocks/header/main-nav/main-nav.scss";
 @import "./blocks/header/main-nav/nav-list.scss";
+@import "./blocks/header/main-nav/nav-toggle";
+@import "./blocks/header/main-nav/nav-item";
 @import "./blocks/header/main-nav/nav-link.scss";
 @import "./blocks/location/location.scss";
 @import "./blocks/location/adress-info.scss";
@@ -70,6 +74,7 @@
 @import "./blocks/main-form/form-wrapper/form-wrapper.scss";
 @import "./blocks/main-form/form-wrapper/main-title.scss";
 @import "./blocks/main-form/form-wrapper/main-info.scss";
+@import "./blocks/main-form/form-user/user-data/user-data";
 @import "./blocks/main-form/form-user/user-data/name-weight-container/name-weight-container.scss";
 @import "./blocks/main-form/form-user/user-data/name-weight-container/user-name.scss";
 @import "./blocks/main-form/form-user/user-data/name-weight-container/form-name-container.scss";

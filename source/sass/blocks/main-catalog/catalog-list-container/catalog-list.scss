@@ -1,5 +1,31 @@
 .catalog-list {
-  padding: 0 20px 0 20px;
+  display: grid;
+  padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+@media (min-width: $tablet-width) {
+  .catalog-list {
+    padding: 0 30px 68px;
+    grid-template-columns: 324px 324px;
+    gap: 60px;
+
+    &__new {
+      margin-top: 73px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog-list {
+    padding: 0 110px 76px;
+    grid-template-columns: 245px 245px 245px 245px;
+    row-gap: 63px;
+    column-gap: 80px;
+
+    &__new {
+      margin-top: 80px;
+    }
+  }
 }

@@ -1,7 +1,8 @@
 .button-container {
+  display: flex;
+  flex-direction: column;
   padding: 0 20px 32px;
   text-align: center;
-  min-height: 77px;
 
   &__button {
     display: block;
@@ -12,5 +13,30 @@
     margin-top: 21px;
     font-family: "Arial", sans-serif;
     line-height: 16px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .button-container {
+    padding: 0 174px 72px 71px;
+    min-width: 523px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__info {
+      margin: 0;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .button-container {
+    padding: 0 500px 82px 111px;
+    min-width: 829px;
+
+    &__info {
+      margin: 0;
+    }
   }
 }

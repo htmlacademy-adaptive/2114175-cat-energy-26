@@ -9,3 +9,10 @@
   color: #ffffff;
   text-align: center;
 }
+
+@media (min-width: $desktop-width) {
+  .additional-button {
+    width: 138px;
+    margin-left: 38px;
+  }
+}

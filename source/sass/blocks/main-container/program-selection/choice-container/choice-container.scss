@@ -1,4 +1,7 @@
 .choice-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   min-height: 480px;
   position: relative;
 
@@ -10,5 +13,42 @@
 
   &__button {
     margin: 138px 20px 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .choice-container {
+    padding: 62px 30px 0 117px;
+    min-height: 810px;
+    min-width: 708px;
+
+    &__promo {
+      position: absolute;
+      margin: 0;
+      top: 255px;
+      left: 26px;
+    }
+
+    &__button {
+      margin: 0;
+      margin-top: 49px;
+      margin-left: 0;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .choice-container {
+    min-height: 920px;
+
+    &__promo {
+      top: 38px;
+      left: 450px;
+    }
+
+    &__button {
+      margin: 0;
+      margin-top: 49px;
+    }
   }
 }

@@ -1,4 +1,7 @@
 .advertising-link {
+  display: flex;
+  flex-direction: column;
+
   &__icon {
     display: block;
     margin: 0 auto 48px;
@@ -10,5 +13,35 @@
     line-height: 20px;
     max-width: 161px;
     text-align: center;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advertising-link {
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__icon {
+      margin: 0;
+    }
+
+    &__info {
+      text-align: start;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advertising-link {
+    flex-direction: column;
+
+    &__icon {
+      display: block;
+      margin: 0 auto 46px;
+    }
+
+    &__info {
+      text-align: center;
+    }
   }
 }

@@ -7,3 +7,23 @@
     margin-top: 21px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .new-item {
+    text-align: center;
+    min-width: 245px;
+    padding: 52px 37px 38px 38px;
+    border: 1px solid #ebebeb;
+
+    &__button {
+      margin-top: 87px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .new-item {
+    min-width: 169px;
+    padding: 51px 38px 41px;
+  }
+}

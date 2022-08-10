@@ -5,7 +5,7 @@
   font-size: 12px;
   line-height: 16px;
   color: #444444;
-  max-width: 140px;
+  width: 100%;
 
   &__term {
     margin: 0;
@@ -17,5 +17,32 @@
     margin: 0;
     padding: 0;
     text-align: end;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .info-item {
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #cdcdcd;
+
+    &:nth-child(2) {
+      padding-top: 5px;
+      padding-bottom: 7px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .info-item {
+    padding-top: 7px;
+    padding-bottom: 10px;
+
+    &:nth-child(2) {
+      padding-top: 6px;
+      padding-bottom: 8px;
+    }
   }
 }
