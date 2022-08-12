@@ -22,12 +22,11 @@
   .main-header {
     min-width: 1220px;
     max-width: 1220px;
-    max-height: 670px;
     padding: 54px 110px 0;
 
     &--bg {
       background: url("../img/main-header.png") no-repeat;
-      background-position-x: 720px;
+      background-position-x: right;
     }
   }
 }

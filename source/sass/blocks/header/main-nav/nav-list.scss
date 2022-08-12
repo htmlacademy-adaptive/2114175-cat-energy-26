@@ -11,14 +11,12 @@
   .nav-list {
     flex-direction: row;
     justify-content: space-between;
-    min-width: 440px;
-    max-width: 440px;
+    width: 440px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .nav-list {
-    min-width: 478px;
-    max-width: 478px;
+    width: 478px;
   }
 }

@@ -11,8 +11,7 @@
 @media (min-width: $tablet-width) {
   .main-nav {
     flex-direction: row;
-    min-width: 440px;
-    max-width: 440px;
+    width: 440px;
 
     &__wrapper {
       display: block;

@@ -24,63 +24,45 @@
     }
 
     &:nth-child(1) {
-      min-width: 230px;
-      max-width: 230px;
+      width: 230px;
     }
 
     &:nth-child(2) {
-      min-width: 246px;
-      max-width: 246px;
+      width: 246px;
     }
 
     &:nth-child(3) {
-      min-width: 247px;
-      max-width: 247px;
+      width: 247px;
     }
 
     &:nth-child(4) {
-      min-width: 249px;
-      max-width: 249px;
+      width: 249px;
+    }
+
+    &::after {
+      z-index: -1;
+      position: absolute;
+      counter-increment: section;                 /* Инкрементирует счётчик*/
+      content: "" counter(section) "";
+      font-size: 280px;
+      line-height: 280px;
+      color: #f2f2f2;
     }
 
     &:nth-child(1)::after {
-      content: "1";
-      z-index: -1;
-      position: absolute;
       left: 118px;
-      font-size: 280px;
-      line-height: 280px;
-      color: #f2f2f2;
     }
 
     &:nth-child(2)::after {
-      content: "2";
-      z-index: -1;
-      position: absolute;
       left: 111px;
-      font-size: 280px;
-      line-height: 280px;
-      color: #f2f2f2;
     }
 
     &:nth-child(3)::after {
-      content: "3";
-      z-index: -1;
-      position: absolute;
       left: 113px;
-      font-size: 280px;
-      line-height: 280px;
-      color: #f2f2f2;
     }
 
     &:nth-child(4)::after {
-      content: "4";
-      z-index: -1;
-      position: absolute;
       left: 113px;
-      font-size: 280px;
-      line-height: 280px;
-      color: #f2f2f2;
     }
   }
 }
