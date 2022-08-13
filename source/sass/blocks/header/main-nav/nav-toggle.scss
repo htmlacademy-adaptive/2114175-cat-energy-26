@@ -1,7 +1,8 @@
 .nav-toggle {
-  padding: 0;
-  width: 24px;
-  height: 18px;
+  z-index: 2;
+  position: absolute;
+  cursor: pointer;
   border: none;
-  background: #ffffff url("../img/but-open.svg") no-repeat;
+  width: 24px;
+  height: 24px;
 }

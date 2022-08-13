@@ -1,9 +1,8 @@
 .logo-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  min-width: 192px;
-  padding: 10px 20px 17px 20px;
+  padding: 10px 20px 17px;
+  min-width: 280px;
 }
 
 @media (min-width: $tablet-width) {

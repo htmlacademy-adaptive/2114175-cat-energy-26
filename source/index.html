@@ -18,7 +18,7 @@
         </a>
       </div>
 
-      <nav class="main-header__nav main-nav">
+      <nav class="main-header__nav main-nav main-nav--closed main-nav--nojs">
         <button class="main-nav__toggle nav-toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
@@ -145,13 +145,7 @@
             </ul>
 
             <div class="result-wrapper__range range-scale">
-              <div class="range-scale__bar range-bar">
-                <div class="range-bar__toggle range-toggle">
-                  <span class="range-toggle__max">Было</span>
-                  <button type="button" class="range-scale__range-button"></button>
-                  <span class="range-toggle__min">Стало</span>
-                </div>
-              </div>
+              <button type="button" class="range-scale__button"></button>
             </div>
           </div>
         </div>
@@ -208,5 +202,6 @@
         </a>
       </div>
     </footer>
+    <script src="../js/script.js"></script>
   </body>
 </html>

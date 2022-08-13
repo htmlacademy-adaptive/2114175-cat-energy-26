@@ -1,10 +1,12 @@
 .logo-text {
   min-width: 101px;
+  margin-left: 57px;
 }
 
 @media (min-width: $tablet-width) {
   .logo-text {
     display: none;
+    margin-left: 0;
   }
 }
 
