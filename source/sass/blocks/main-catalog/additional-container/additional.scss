@@ -1,5 +1,7 @@
 .additional {
-  padding: 25px 20px 35px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 20px 35px;
 
   &__title {
     margin: 0;
@@ -10,5 +12,37 @@
 
   &__advertising {
     margin-top: 35px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .additional {
+    padding: 0 30px 76px;
+
+    &__title {
+      font-size: 36px;
+      line-height: 36px;
+    }
+
+    &__advertising {
+      margin-top: 69px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .additional {
+    padding: 0 110px 86px;
+
+    &__advertising {
+      margin-top: 0;
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 81px;
+    }
   }
 }

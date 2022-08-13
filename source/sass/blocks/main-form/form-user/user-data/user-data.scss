@@ -1,0 +1,19 @@
+.user-data {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 19px;
+}
+
+@media (min-width: $tablet-width) {
+  .user-data {
+    padding: 0 67px 71px 71px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .user-data {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 112px 69px 111px;
+  }
+}

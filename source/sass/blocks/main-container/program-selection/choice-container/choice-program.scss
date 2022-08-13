@@ -1,6 +1,7 @@
 .choice-program {
   position: relative;
   padding: 27px 20px 164px;
+  width: 280px;
   color: #ffffff;
   z-index: 1;
   background: url("../img/choice-program-bg.png") no-repeat;
@@ -23,5 +24,30 @@
   &__info {
     margin: 0;
     margin-top: 25px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .choice-program {
+    width: 416px;
+    padding: 0;
+    background: none;
+    color: #000000;
+
+    &::before {
+      background-color: transparent;
+    }
+
+    &__info {
+      margin: 0;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .choice-program {
+    &__info {
+      margin: 0;
+    }
   }
 }

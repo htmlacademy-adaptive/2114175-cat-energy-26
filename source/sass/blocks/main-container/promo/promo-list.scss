@@ -1,9 +1,27 @@
 .promo-list {
   display: flex;
   justify-content: space-between;
+  width: 280px;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 37px;
   margin-bottom: 20px;
   padding: 0;
   list-style-type: none;
+}
+
+@media (min-width: $tablet-width) {
+  .promo-list {
+    width: 366px;
+    margin: 0;
+    margin-top: 54px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo-list {
+    margin: 0;
+    margin-top: 69px;
+    margin-bottom: 0;
+  }
 }

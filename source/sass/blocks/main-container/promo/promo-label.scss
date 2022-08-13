@@ -1,11 +1,24 @@
 .promo-label {
   display: block;
-  position: relative;
+  position: absolute;
   font-family: "Arial", sans-serif;
   font-size: 12px;
   line-height: 12px;
-  width: 87px;
   background-color: #eaeaea;
   color: #444444;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .promo-label {
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo-label {
+    background-color: #eaeaea;
+  }
 }

@@ -5,3 +5,24 @@
     margin-top: 23px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .new-item-wrapper {
+    text-align: center;
+
+    &__img {
+      width: 60px;
+      height: 60px;
+    }
+
+    &__info {
+      margin-top: 49px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .new-item-wrapper {
+    text-align: center;
+  }
+}

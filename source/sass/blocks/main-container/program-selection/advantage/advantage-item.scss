@@ -7,3 +7,72 @@
     margin-left: 20px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .advantage-item {
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 37px;
+
+    &__info {
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 31px;
+      margin-bottom: 0;
+      margin-left: 0;
+      padding-bottom: 57px;
+    }
+
+    &:nth-child(1) {
+      width: 230px;
+    }
+
+    &:nth-child(2) {
+      width: 246px;
+    }
+
+    &:nth-child(3) {
+      width: 247px;
+    }
+
+    &:nth-child(4) {
+      width: 249px;
+    }
+
+    &::after {
+      z-index: -1;
+      position: absolute;
+      counter-increment: section;                 /* Инкрементирует счётчик*/
+      content: "" counter(section) "";
+      font-size: 280px;
+      line-height: 280px;
+      color: #f2f2f2;
+    }
+
+    &:nth-child(1)::after {
+      left: 118px;
+    }
+
+    &:nth-child(2)::after {
+      left: 111px;
+    }
+
+    &:nth-child(3)::after {
+      left: 113px;
+    }
+
+    &:nth-child(4)::after {
+      left: 113px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantage-item {
+    margin-bottom: 0;
+
+    &__info {
+      margin-left: 0;
+    }
+  }
+}

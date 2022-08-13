@@ -1,6 +1,8 @@
 .catalog-item {
-  min-width: 280px;
-  padding: 20px 0 23px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  padding: 20px 20px 23px;
   border-bottom: 1px solid #ebebeb;
 
   &__button {
@@ -9,5 +11,33 @@
 
   &:first-child {
     border-top: 1px solid #ebebeb;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .catalog-item {
+    border: none;
+    max-width: 252px;
+    padding: 0 36px 39px;
+    background: linear-gradient(#ffffff 73px, #f2f2f2 72px, #f2f2f2 100%);
+
+    &:first-child {
+      border-top: none;
+    }
+
+    &__button {
+      margin-top: 42px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog-item {
+    max-width: 180px;
+    background: linear-gradient(#ffffff 80px, #f2f2f2 80px, #f2f2f2 100%);
+
+    &__button {
+      margin-top: 43px;
+    }
   }
 }

@@ -1,3 +1,22 @@
 .item-wrapper {
   display: flex;
 }
+
+@media (min-width: $tablet-width) {
+  .item-wrapper {
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+      margin-top: 34px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .item-wrapper {
+    &__title {
+      margin-top: 46px;
+    }
+  }
+}

@@ -1,9 +1,17 @@
 .user-name {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 
   &__name {
     margin: 0;
     margin-right: 13px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .user-name {
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }

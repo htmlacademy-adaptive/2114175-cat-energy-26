@@ -12,3 +12,16 @@
     text-transform: uppercase;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .checkbox-title {
+    &__mark {
+      margin-right: 19px;
+    }
+
+    &__name {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}

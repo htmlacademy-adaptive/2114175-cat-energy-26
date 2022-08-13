@@ -1,4 +1,18 @@
 .slider-list {
+  display: flex;
+  flex-direction: column;
   padding: 0;
   list-style-type: none;
+}
+
+@media (min-width: $tablet-width) {
+  .slider-list {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slider-list {
+    padding: 0;
+  }
 }

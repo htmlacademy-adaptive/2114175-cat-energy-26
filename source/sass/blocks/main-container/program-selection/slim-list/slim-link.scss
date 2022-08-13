@@ -5,3 +5,11 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .slim-link {
+    font-size: 20px;
+    line-height: 30px;
+    order: 4;
+  }
+}

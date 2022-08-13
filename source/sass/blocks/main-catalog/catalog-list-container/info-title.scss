@@ -10,3 +10,26 @@
     text-transform: uppercase;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .info-title {
+    max-width: 155px;
+    text-align: center;
+
+    &__title {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .info-title {
+    max-width: 145px;
+
+    &__title {
+      font-size: 20px;
+      line-height: 21px;
+    }
+  }
+}

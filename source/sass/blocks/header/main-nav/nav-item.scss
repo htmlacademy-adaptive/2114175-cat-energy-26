@@ -1,0 +1,27 @@
+.nav-item {
+  padding: 22px 70px 24px 69px;
+  width: calc(100% - 139px);
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .nav-item {
+    padding: 0;
+    padding-bottom: 10px;
+    border: 0;
+    width: auto;
+
+    &--current {
+      border-bottom: 1px solid #68b738;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .nav-item {
+    &--desk-current {
+      border-bottom: 1px solid #ffffff;
+    }
+  }
+}

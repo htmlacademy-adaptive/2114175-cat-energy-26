@@ -1,3 +1,31 @@
 .main-nav {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  &__wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    flex-direction: row;
+    width: 440px;
+
+    &__wrapper {
+      display: block;
+    }
+
+    &__toggle {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav {
+    min-width: 478px;
+    max-width: 478px;
+  }
 }

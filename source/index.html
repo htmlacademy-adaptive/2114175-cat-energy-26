@@ -2,66 +2,65 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Кэт энерджи</title>
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="page__body">
-    <header class="main-header">
+    <header class="main-header main-header--bg">
       <div class="main-header__container logo-container">
         <a class="logo-container__logo logo">
-          <img class="logo__logo-image" src="img/logo-mobile.svg" width="33" height="37" alt="Логотип кота.">
+          <img class="logo__image" src="img/logo-mobile.svg" width="33" height="37" alt="Логотип кота.">
         </a>
 
         <a class="logo-container__logo-text logo-text">
-          <img class="logo-text__logo-text-image" src="img/logo-text.svg" width="101" height="18" alt="Кэт энерджи.">
+          <img class="logo-text__image" src="img/logo-text.svg" width="101" height="18" alt="Кэт энерджи.">
         </a>
       </div>
 
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">
+      <nav class="main-header__nav main-nav">
+        <button class="main-nav__toggle nav-toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list nav-list">
-            <li class="nav-list__item nav-item nav-item--current">
-              <a class="nav-item__link nav-link">Главная</a>
+            <li class="nav-list__item nav-item nav-item--current nav-item--desk-current">
+              <a class="nav-item__link nav-link nav-link--colored">Главная</a>
             </li>
             <li class="nav-list__item nav-item">
-              <a class="nav-item__link nav-link" href="catalog.html">Каталог продукции</a>
+              <a class="nav-item__link nav-link nav-link--colored" href="catalog.html">Каталог продукции</a>
             </li>
             <li class="nav-list__item nav-item">
-              <a class="nav-item__link nav-link" href="form.html">Подбор программы</a>
+              <a class="nav-item__link nav-link nav-link--colored" href="form.html">Подбор программы</a>
             </li>
           </ul>
         </div>
       </nav>
+
+      <div class="main-header__container choice-container">
+        <div class="choice-container__program choice-program">
+          <h2 class="choice-program__title choice-title">Функциональное <br>питание для котов</h2>
+          <p class="choice-program__info choice-info">Занялся собой? Займись котом!</p>
+        </div>
+        <div class="choice-container__promo choice-promo">
+          <img class="choice-promo__image" src="img/index-can-mobile.png" width="280" height="270" alt="Кэт энерджи с курицей, 500 грамм.">
+        </div>
+        <a class="choice-container__button choice-button" href="form.html">Подобрать программу</a>
+      </div>
     </header>
 
     <main class="main-container">
       <h1 class="visually-hidden">Кэт Энерджи - сайт для продвинутых котов.</h1>
       <section class="main-container__program-selection program-selection">
-        <div class="program-selection__container choice-container">
-          <div class="choice-container__program choice-program">
-            <h2 class="choice-program__title choice-title">Функциональное <br>питание для котов</h2>
-            <p class="choice-program__info choice-info">Занялся собой? Займись котом!</p>
-          </div>
-          <div class="choice-container__promo choice-promo">
-            <img class="choice-promo__image" src="img/index-can-mobile.png" width="280" height="270" alt="Кэт энерджи с курицей, 500 грамм.">
-          </div>
-          <a class="choice-container__button choice-button" href="form.html">Подобрать программу</a>
-        </div>
-
         <div class="program-selection__container slim-container">
           <h2 class="visually-hidden">Подбор питания для котов</h2>
 
           <ul class="slim-container__list slim-list">
             <li class="slim-list__item slim-item">
-              <div class="slim-item__wrapper slim-wrapper">
-                <div class="slim-wrapper__wrapper slim-image">
-                  <img class="slim-wrapper__image slim-image__image" src="img/cat-slim.svg" width="36" height="50" alt="Худеющий кот.">
-                </div>
-                <h3 class="slim-wrapper__title slim-tiite">Похудение</h3>
+              <div class="slim-item__image slim-image">
+                <img class="slim-image__image" src="img/cat-slim.svg" width="36" height="50" alt="Худеющий кот.">
               </div>
+              <h3 class="slim-item__title slim-tiite">Похудение</h3>
               <p class="slim-item__info slim-info">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
               <a class="slim-item__link slim-link" href="catalog.html">Каталог slim
                 <img class="slim-link__arrow" src="img/right_arrow.svg" width="24" height="12" alt="Стрелка вправо.">
@@ -69,12 +68,10 @@
             </li>
 
             <li class="slim-list__item slim-item">
-              <div class="slim-item__wrapper slim-wrapper">
-                <div class="slim-wrapper__wrapper slim-image">
-                  <img class="slim-wrapper__image slim-image__image pro-image" src="img/cat-pro.svg" width="67" height="28" alt="Накаченный кот.">
-                </div>
-                <h3 class="slim-wrapper__title slim-tiite">Набор массы</h3>
+              <div class="slim-item__image slim-image">
+                <img class="slim-image__image pro-image" src="img/cat-pro.svg" width="67" height="28" alt="Накаченный кот.">
               </div>
+              <h3 class="slim-item__title slim-tiite">Набор массы</h3>
               <p class="slim-item__info slim-info">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
               <a class="slim-item__link slim-link" href="catalog.html">Каталог pro
                 <img class="slim-link__logo-pro" src="img/right_arrow.svg" width="24" height="12" alt="Стрелка вправо.">
@@ -118,38 +115,42 @@
       </section>
 
       <section class="main-container__promo promo">
-        <h2 class="promo__title">Живой пример</h2>
-        <p class="promo__info">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
+        <div class="promo__wrapper promo-wrapper">
+          <h2 class="promo-wrapper__title">Живой пример</h2>
+          <p class="promo-wrapper__info">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
 
-        <ul class="promo__list promo-list">
-          <li class="promo-list__item promo-item">
-            <span class="promo-item__value promo-value">5 кг</span>
-            <span class="promo-item__label promo-label">снижение <br>веса</span>
-          </li>
-          <li class="promo-list__item promo-item">
-            <span class="promo-item__value promo-value">60 дней</span>
-            <span class="promo-item__label promo-label">затрачено <br>времени</span>
-          </li>
-        </ul>
-
-        <p class="promo__price">Затраты на питание: 15 000 РУБ.</p>
-
-        <div class="promo__result promo-result">
-          <ul class="promo-result__list slider-list">
-            <li class="slider-list__item slider-item">
-              <img class="slider-item__fat-cat" src="img/cat-fat-mobile.png" width="280" height="232" alt="Толстый кот.">
+          <ul class="promo-wrapper__list promo-list">
+            <li class="promo-list__item promo-item">
+              <span class="promo-item__value promo-value">5 кг</span>
+              <span class="promo-item__label promo-label">снижение веса</span>
             </li>
-            <li class="slider-list__item slider-item">
-              <img class="slider-item__skinny-cat" src="img/cat-skynny-mobile.png" width="243" height="232" alt="Худой кот.">
+            <li class="promo-list__item promo-item">
+              <span class="promo-item__value promo-value">60 дней</span>
+              <span class="promo-item__label promo-label">затрачено времени</span>
             </li>
           </ul>
 
-          <div class="promo-result__range range-scale">
-            <div class="range-scale__bar range-bar">
-              <div class="range-bar__toggle range-toggle">
-                <span class="range-toggle__max">Было</span>
-                <button type="button" class="range-scale__range-button"></button>
-                <span class="range-toggle__min">Стало</span>
+          <p class="promo-wrapper__price">Затраты на питание: <span>15 000 РУБ.</span></p>
+        </div>
+
+        <div class="promo__result-wrapper result-wrapper">
+          <div class="result-wrapper promo-result">
+            <ul class="promo-result__list slider-list">
+              <li class="slider-list__item slider-item">
+                <img class="slider-item__fat-cat" src="img/cat-fat-mobile.png" width="280" height="232" alt="Толстый кот.">
+              </li>
+              <li class="slider-list__item slider-item">
+                <img class="slider-item__skinny-cat" src="img/cat-skynny-mobile.png" width="243" height="232" alt="Худой кот.">
+              </li>
+            </ul>
+
+            <div class="result-wrapper__range range-scale">
+              <div class="range-scale__bar range-bar">
+                <div class="range-bar__toggle range-toggle">
+                  <span class="range-toggle__max">Было</span>
+                  <button type="button" class="range-scale__range-button"></button>
+                  <span class="range-toggle__min">Стало</span>
+                </div>
               </div>
             </div>
           </div>
@@ -164,8 +165,7 @@
           </p>
         </div>
         <div class="location__map map">
-          <img class="map__map" src="img/map.jpg" width="320" height="362" alt="Карта проезда.">
-          <img class="map__map-pin" src="img/map-pin.png" width="57" height="52" alt="Точка на карте.">
+          <img class="map__map-pin" src="img/map-pin.svg" width="57" height="52" alt="Точка на карте.">
         </div>
       </div>
     </main>

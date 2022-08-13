@@ -1,3 +1,21 @@
 .logo-container {
-  min-width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 192px;
+  padding: 10px 20px 17px 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .logo-container {
+    min-width: 174px;
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo-container {
+    min-width: 202px;
+    padding: 0;
+  }
 }

@@ -4,3 +4,21 @@
   text-align: center;
   width: 128px;
 }
+
+@media (min-width: $tablet-width) {
+  .footer-logo {
+    padding: 0;
+    border: none;
+
+    &__img {
+      width: 128px;
+      height: 34px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .footer-logo {
+    margin: 0;
+  }
+}
