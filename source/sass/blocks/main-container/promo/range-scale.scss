@@ -4,13 +4,6 @@
   flex-direction: column;
   justify-content: center;
 
-  &__line {
-    width: 4px;
-    margin-left: -2px;
-    flex-grow: 1;
-    background-color: #666666;
-  }
-
   &__button {
     margin-left: -18px;
   }

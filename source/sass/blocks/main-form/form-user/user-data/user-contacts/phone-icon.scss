@@ -3,4 +3,19 @@
   top: 13px;
   right: 12px;
   fill: #222222;
+
+  &:hover {
+    stroke: #68b738;
+  }
+
+  &:invalid {
+    stroke: #ff8282;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .email-icon {
+    width: 20px;
+    height: 20px;
+  }
 }

@@ -4,6 +4,10 @@
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
+
+  &:active {
+    opacity: 30%;
+  }
 }
 
 @media (min-width: $tablet-width) {

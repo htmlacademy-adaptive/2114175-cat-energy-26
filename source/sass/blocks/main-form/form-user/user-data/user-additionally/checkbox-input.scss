@@ -2,4 +2,11 @@
   background-image: url("../img/checkboxbutton.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  background-size: 18px 14px;
+}
+
+@media (min-width: $tablet-width) {
+  .checkbox-input:checked + .checkbox-mark {
+    background-size: 24px 19px;
+  }
 }
