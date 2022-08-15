@@ -1,0 +1,17 @@
+.range-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  border: 2px solid #666666;
+  border-radius: 50%;
+  background-color: #ffffff;
+
+  &__icon {
+    fill: #666666;
+  }
+}

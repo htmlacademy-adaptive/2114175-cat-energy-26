@@ -3,3 +3,15 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media (min-width: $tablet-width) {
+  .result-wrapper {
+    padding: 0 73px 0 74px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .result-wrapper {
+    padding: 0;
+  }
+}
