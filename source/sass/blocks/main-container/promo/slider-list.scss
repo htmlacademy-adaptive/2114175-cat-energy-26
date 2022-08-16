@@ -13,7 +13,7 @@
     left: 0;
     background: url("../img/mobile-before.png") center left no-repeat;
     background-size: 280px 256px;
-    width: 140px;
+    width: 50%;
     min-height: 256px;
   }
 
@@ -23,7 +23,7 @@
     right: 0;
     background: url("../img/mobile-after.png") top right no-repeat;
     background-size: 280px 256px;
-    width: 140px;
+    width: 50%;
     min-height: 256px;
   }
 }
@@ -37,14 +37,12 @@
     &__fat-cat {
       background: url("../img/tablet-before.png") center left no-repeat;
       background-size: 560px 512px;
-      width: 280px;
       min-height: 512px;
     }
 
     &__skynny-cat {
       background: url("../img/tablet-after.png") center right no-repeat;
       background-size: 560px 512px;
-      width: 280px;
       min-height: 512px;
     }
   }
