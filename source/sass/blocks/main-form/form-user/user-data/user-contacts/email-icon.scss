@@ -2,4 +2,13 @@
   position: absolute;
   top: 16px;
   right: 15px;
+  fill: none;
+  stroke: #222222;
+}
+
+@media (min-width: $tablet-width) {
+  .email-icon {
+    width: 19px;
+    height: 14px;
+  }
 }

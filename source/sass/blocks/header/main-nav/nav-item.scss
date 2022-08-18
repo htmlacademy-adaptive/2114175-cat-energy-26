@@ -3,6 +3,21 @@
   width: calc(100% - 139px);
   border-top: 1px solid #e6e6e6;
   text-align: center;
+
+  &:hover {
+    opacity: 60%;
+  }
+
+  &:active {
+    opacity: 30%;
+  }
+
+  &--current {
+    &:hover,
+    &:active {
+      opacity: 100%;
+    }
+  }
 }
 
 @media (min-width: $tablet-width) {

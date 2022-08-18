@@ -10,17 +10,19 @@
   }
 
   &__textarea {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
     resize: none;
     width: 280px;
     height: 150px;
     padding: 9px 12px 9px 15px;
     border: 1px solid #e7e7e7;
+    color: #444444;
+    outline: none;
   }
 
   &__textarea::placeholder {
-    font-family: "Oswald", sans-serif;
-    font-size: 16px;
-    line-height: 18px;
     text-transform: uppercase;
     color: #444444;
   }
@@ -41,9 +43,6 @@
       width: 631px;
       height: 174px;
       padding: 10px 19px;
-    }
-
-    &__textarea::placeholder {
       font-size: 20px;
       line-height: 30px;
     }

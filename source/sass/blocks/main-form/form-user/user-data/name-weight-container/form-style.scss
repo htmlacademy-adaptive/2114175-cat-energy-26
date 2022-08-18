@@ -1,23 +1,42 @@
 .form-style {
   width: calc(100% - 32px);
   margin: 0;
-  padding: 14px 15px;
+  padding: 9px 15px 10px;
   border: 1px solid #e7e7e7;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  outline: none;
+  color: #444444;
 
   &::placeholder {
-    font-family: "Oswald", sans-serif;
-    font-size: 16px;
-    line-height: 18px;
     text-transform: uppercase;
     color: #444444;
+  }
+
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:focus {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    border: 2px solid #444444;
+  }
+
+  &:invalid {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    border: 2px solid #ff8282;
   }
 }
 
 @media (min-width: $tablet-width) {
   .form-style {
-    &::placeholder {
-      font-size: 20px;
-      line-height: 30px;
-    }
+    padding: 10px 15px;
+    font-size: 20px;
+    line-height: 30px;
   }
 }

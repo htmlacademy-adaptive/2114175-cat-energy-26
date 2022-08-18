@@ -1,5 +1,14 @@
 .logo {
   width: 33px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 80%;
+  }
+
+  &:active {
+    opacity: 60%;
+  }
 }
 
 @media (min-width: $tablet-width) {

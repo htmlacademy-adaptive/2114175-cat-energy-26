@@ -1,6 +1,12 @@
 .social-link {
-  &__img {
-    fill: #666666;
+  fill: #666666;
+
+  &:hover {
+    fill: #68b738;
+  }
+
+  &:active {
+    opacity: 30%;
   }
 }
 

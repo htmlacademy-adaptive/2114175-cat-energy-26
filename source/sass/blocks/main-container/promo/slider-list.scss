@@ -1,18 +1,49 @@
 .slider-list {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 0;
   list-style-type: none;
+  width: 280px;
+  min-height: 256px;
+
+  &__fat-cat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../img/mobile-before.png") center left no-repeat;
+    background-size: 280px 256px;
+    width: 50%;
+    min-height: 256px;
+  }
+
+  &__skynny-cat {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../img/mobile-after.png") top right no-repeat;
+    background-size: 280px 256px;
+    width: 50%;
+    min-height: 256px;
+  }
 }
 
 @media (min-width: $tablet-width) {
   .slider-list {
     flex-direction: row;
-  }
-}
+    width: 560px;
+    min-height: 512px;
 
-@media (min-width: $desktop-width) {
-  .slider-list {
-    padding: 0;
+    &__fat-cat {
+      background: url("../img/tablet-before.png") center left no-repeat;
+      background-size: 560px 512px;
+      min-height: 512px;
+    }
+
+    &__skynny-cat {
+      background: url("../img/tablet-after.png") center right no-repeat;
+      background-size: 560px 512px;
+      min-height: 512px;
+    }
   }
 }

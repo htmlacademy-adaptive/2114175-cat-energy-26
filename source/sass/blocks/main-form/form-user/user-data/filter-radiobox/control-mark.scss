@@ -3,4 +3,19 @@
   height: 28px;
   border: 1px solid #cdcdcd;
   border-radius: 50%;
+
+  &:hover {
+    border-color: #bababa;
+  }
+
+  &:disabled {
+    opacity: 30%;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .control-mark {
+    width: 38px;
+    height: 38px;
+  }
 }
