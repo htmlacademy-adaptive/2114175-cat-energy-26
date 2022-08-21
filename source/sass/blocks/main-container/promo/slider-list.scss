@@ -15,6 +15,10 @@
     background-size: 280px 256px;
     width: 50%;
     min-height: 256px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/mobile-before@2x.png");
+    }
   }
 
   &__skynny-cat {
@@ -25,6 +29,10 @@
     background-size: 280px 256px;
     width: 50%;
     min-height: 256px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/mobile-after@2x.png");
+    }
   }
 }
 
@@ -38,12 +46,20 @@
       background: url("../img/tablet-before.png") center left no-repeat;
       background-size: 560px 512px;
       min-height: 512px;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/tablet-before@2x.png");
+      }
     }
 
     &__skynny-cat {
       background: url("../img/tablet-after.png") center right no-repeat;
       background-size: 560px 512px;
       min-height: 512px;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/tablet-after@2x.png");
+      }
     }
   }
 }

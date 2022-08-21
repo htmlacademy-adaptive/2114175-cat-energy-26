@@ -26,8 +26,24 @@
     padding: 54px 110px 0;
 
     &--bg {
-      background: url("../img/main-header.png") no-repeat;
+      background: url("../img/choice-program-bg-desktop.jpg") no-repeat;
       background-position-x: right;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/choice-program-bg-desktop@2x.png");
+        background-size: 720px auto;
+      }
+
+      &::before {
+        content: "";
+        width: 50%;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: rgba(104, 183, 56, 0.85);
+      }
     }
   }
 }
