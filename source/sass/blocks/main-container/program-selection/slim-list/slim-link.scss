@@ -5,6 +5,21 @@
   text-decoration: none;
   text-transform: uppercase;
 
+  &__wrapper {
+    margin-left: 25px;
+    overflow: hidden;
+  }
+
+  &__arrow {
+    transform: translateX(-10px);
+  }
+
+  &:hover {
+    .slim-link__arrow {
+      transform: translateX(0);
+    }
+  }
+
   &:active {
     opacity: 30%;
   }

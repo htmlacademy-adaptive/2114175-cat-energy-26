@@ -15,7 +15,7 @@
   &--current {
     &:hover,
     &:active {
-      pointer-events: none;
+      opacity: 100%;
     }
   }
 }

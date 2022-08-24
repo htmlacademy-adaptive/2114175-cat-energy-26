@@ -3,10 +3,22 @@
 
   &__title {
     margin: 0;
+    position: relative;
     margin-bottom: 34px;
     font-family: "Oswald", sans-serif;
     font-size: 24px;
     line-height: 26px;
+    font-weight: 400;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 17px;
+      right: -20px;
+      height: 2px;
+      width: 158px;
+      background-color: #68b738;
+    }
   }
 
   &__textarea {
@@ -36,6 +48,21 @@
       margin-bottom: 76px;
       font-size: 36px;
       line-height: 36px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 17px;
+        left: -69px;
+        height: 2px;
+        width: 30px;
+        background-color: #68b738;
+      }
+
+      &::after {
+        right: -67px;
+        width: 478px;
+      }
     }
 
     &__textarea {
@@ -52,6 +79,18 @@
 @media (min-width: $desktop-width) {
   .user-comment {
     padding: 0 110px 67px;
+
+    &__title {
+      &::before {
+        left: -110px;
+        width: 70px;
+      }
+
+      &::after {
+        right: -110px;
+        width: 1108px;
+      }
+    }
 
     &__textarea {
       width: 1220px;
