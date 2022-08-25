@@ -3,9 +3,21 @@
 
   &__title {
     margin: 0;
+    position: relative;
     margin-bottom: 34px;
     font-size: 24px;
     line-height: 26px;
+    font-weight: 400;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 17px;
+      right: -20px;
+      height: 2px;
+      width: 136px;
+      background-color: #68b738;
+    }
   }
 }
 
@@ -17,6 +29,21 @@
       margin-bottom: 57px;
       font-size: 36px;
       line-height: 36px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 17px;
+        left: -70px;
+        height: 2px;
+        width: 30px;
+        background-color: #68b738;
+      }
+
+      &::after {
+        right: -133px;
+        width: 446px;
+      }
     }
   }
 }
@@ -24,5 +51,17 @@
 @media (min-width: $desktop-width) {
   .user-additionally {
     padding: 0 134px 61px 110px;
+
+    &__title {
+      &::before {
+        left: -110px;
+        width: 70px;
+      }
+
+      &::after {
+        right: -134px;
+        width: 1078px;
+      }
+    }
   }
 }

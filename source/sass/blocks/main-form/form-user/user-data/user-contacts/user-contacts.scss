@@ -1,25 +1,52 @@
 .user-contacts {
   display: flex;
   flex-direction: column;
-  padding: 26px 20px 9px 20px;
+  padding: 0 20px 9px 20px;
 
   &__title {
-    margin: 0;
+    position: relative;
     margin-bottom: 35px;
     font-family: "Oswald", sans-serif;
     font-size: 24px;
     line-height: 26px;
+    background-color: #ffffff;
+    font-weight: 400;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 17px;
+      right: -20px;
+      height: 2px;
+      width: 99px;
+      background-color: #68b738;
+    }
   }
 }
 
 @media (min-width: $tablet-width) {
   .user-contacts {
-    padding: 0 66px 65px 51px;
+    padding: 0 66px 65px 69px;
 
     &__title {
       margin-bottom: 76px;
       font-size: 36px;
       line-height: 36px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 17px;
+        left: -69px;
+        height: 2px;
+        width: 30px;
+        background-color: #68b738;
+      }
+
+      &::after {
+        right: -66px;
+        width: 145px;
+      }
     }
   }
 }
@@ -27,5 +54,17 @@
 @media (min-width: $desktop-width) {
   .user-contacts {
     padding: 0 110px 69px 111px;
+
+    &__title {
+      &::before {
+        left: -111px;
+        width: 70px;
+      }
+
+      &::after {
+        right: -110px;
+        width: 778px;
+      }
+    }
   }
 }

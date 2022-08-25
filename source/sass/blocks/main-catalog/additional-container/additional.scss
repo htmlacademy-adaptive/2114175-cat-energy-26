@@ -4,10 +4,22 @@
   padding: 25px 20px 35px;
 
   &__title {
+    position: relative;
     margin: 0;
     padding: 0;
     font-size: 24px;
     line-height: 24px;
+    font-weight: 400;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 17px;
+      right: -35px;
+      height: 2px;
+      width: 53px;
+      background-color: #68b738;
+    }
   }
 
   &__advertising {
@@ -20,8 +32,24 @@
     padding: 0 30px 76px;
 
     &__title {
+      padding-left: 37px;
       font-size: 36px;
       line-height: 36px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 17px;
+        left: -30px;
+        height: 2px;
+        width: 30px;
+        background-color: #68b738;
+      }
+
+      &::after {
+        right: -30px;
+        width: 328px;
+      }
     }
 
     &__advertising {
@@ -33,6 +61,20 @@
 @media (min-width: $desktop-width) {
   .additional {
     padding: 0 110px 86px;
+
+    &__title {
+      padding-left: 0;
+
+      &::before {
+        left: -110px;
+        width: 70px;
+      }
+
+      &::after {
+        right: -110px;
+        width: 957px;
+      }
+    }
 
     &__advertising {
       margin-top: 0;
