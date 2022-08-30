@@ -1,4 +1,6 @@
 .slim-link {
+  display: flex;
+  align-items: center;
   font-size: 16px;
   line-height: 16px;
   color: #000000;
@@ -8,10 +10,11 @@
   &__wrapper {
     margin-left: 25px;
     overflow: hidden;
+    display: inline-block;
   }
 
   &__arrow {
-    transform: translateX(-10px);
+    transform: translateX(-5px);
   }
 
   &:hover {
@@ -22,6 +25,10 @@
 
   &:active {
     opacity: 30%;
+
+    .slim-link__arrow {
+      transform: translateX(0);
+    }
   }
 }
 
