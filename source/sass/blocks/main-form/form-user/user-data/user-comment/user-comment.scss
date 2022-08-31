@@ -5,7 +5,6 @@
     margin: 0;
     position: relative;
     margin-bottom: 34px;
-    font-family: "Oswald", sans-serif;
     font-size: 24px;
     line-height: 26px;
     font-weight: 400;
@@ -22,7 +21,7 @@
   }
 
   &__textarea {
-    font-family: "Oswald", sans-serif;
+    font-family: inherit;
     font-size: 16px;
     line-height: 18px;
     resize: none;
