@@ -5,8 +5,8 @@
   align-items: center;
   position: relative;
   padding: 0;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   border: 2px solid #666666;
   border-radius: 50%;
   background-color: #ffffff;
@@ -18,7 +18,7 @@
   &__line-top {
     position: absolute;
     border-radius: 2px 2px 0 0;
-    top: -108px;
+    top: -110px;
     width: 4px;
     height: 108px;
     background-color: #666666;
@@ -27,7 +27,7 @@
   &__line-bottom {
     position: absolute;
     border-radius: 0 0 2px 2px;
-    bottom: -108px;
+    bottom: -110px;
     width: 4px;
     height: 108px;
     background-color: #666666;
@@ -54,12 +54,12 @@
 @media (min-width: $tablet-width) {
   .range-button {
     &__line-top {
-      top: -236px;
+      top: -238px;
       height: 236px;
     }
 
     &__line-bottom {
-      bottom: -236px;
+      bottom: -238px;
       height: 236px;
     }
   }

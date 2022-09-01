@@ -1,7 +1,12 @@
 .advantage {
-  padding: 0 20px 49px;
+  padding: 20px 20px 49px;
 
   &__title {
+    margin: 0;
+    margin-left: 1px;
+    margin-bottom: 40px;
+    font-family: inherit;
+    font-weight: 400;
     font-size: 36px;
     line-height: 40px;
   }
@@ -9,12 +14,14 @@
 
 @media (min-width: $tablet-width) {
   .advantage {
-    padding: 0 109px 10px 30px;
+    padding: 0 109px 9px 30px;
     border-bottom: 1px solid #e6e6e6;
 
     &__title {
       font-size: 60px;
       line-height: 60px;
+      margin-left: 1px;
+      margin-bottom: 33px;
     }
   }
 }

@@ -1,17 +1,18 @@
 .copyright-link {
   display: flex;
   justify-content: space-between;
-  padding: 22px 20px 21px;
+  padding: 22px 0 21px;
   text-decoration: none;
   fill: #666666;
   color: #444444;
 
   &__text {
     font-family: "Arial", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     width: 114px;
-    margin-top: 6px;
+    margin-top: 7px;
+    margin-left: -1px;
     text-decoration: none;
   }
 
@@ -31,7 +32,7 @@
 
 @media (min-width: $tablet-width) {
   .copyright-link {
-    max-width: 163px;
+    width: 163px;
     font-size: 16px;
     line-height: 18px;
     margin: 0;

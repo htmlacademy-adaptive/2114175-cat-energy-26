@@ -1,5 +1,5 @@
 .footer-logo {
-  padding: 39px 76px 32px;
+  padding: 39px 76px 28px;
   border-bottom: 1px solid #d9d9d9;
   text-align: center;
   width: 128px;
@@ -18,10 +18,11 @@
   .footer-logo {
     padding: 0;
     border: none;
+    margin-top: 6px;
 
     &__img {
       width: 128px;
-      height: 34px;
+      height: 24px;
     }
   }
 }

@@ -1,8 +1,8 @@
 .adress-info {
   display: flex;
   justify-content: space-between;
-  padding: 20px 26px;
   width: 280px;
+  padding: 25px 20px;
 
   &__invitation {
     width: 127px;
@@ -16,12 +16,11 @@
 
 @media (min-width: $tablet-width) {
   .adress-info {
-    padding: 60px 70px 56px 70px;
+    padding: 60px 70px 60px 70px;
     width: 628px;
 
     &__invitation {
       width: 172px;
-      margin: 0;
       font-size: 20px;
       line-height: 26px;
     }
@@ -31,6 +30,6 @@
 @media (min-width: $desktop-width) {
   .adress-info {
     width: 405px;
-    padding: 56px 80px;
+    padding: 59px 80px;
   }
 }

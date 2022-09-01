@@ -4,8 +4,8 @@
   z-index: 3;
 
   .main-nav__toggle {
-    top: -50px;
-    right: 20px;
+    top: -46px;
+    right: 21px;
   }
 
   .main-nav__wrapper {
@@ -48,6 +48,8 @@
   .main-nav {
     flex-direction: row;
     width: 440px;
+    margin-top: 15px;
+    padding: 1px;
 
     &__toggle {
       display: none;
@@ -58,6 +60,10 @@
       display: block;
       position: relative;
     }
+
+    &--catalog {
+      margin-top: 16px;
+    }
   }
 }
 
@@ -65,6 +71,7 @@
   .main-nav {
     min-width: 478px;
     max-width: 478px;
+    margin-top: 6px;
 
     .main-nav__wrapper {
       display: block;

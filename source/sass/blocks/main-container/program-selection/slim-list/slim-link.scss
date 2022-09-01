@@ -8,13 +8,14 @@
   text-transform: uppercase;
 
   &__wrapper {
-    margin-left: 25px;
+    margin-top: -2px;
+    margin-left: 16px;
     overflow: hidden;
     display: inline-block;
   }
 
   &__arrow {
-    transform: translateX(-5px);
+    transform: translateX(-2px);
   }
 
   &:hover {
@@ -37,5 +38,20 @@
     font-size: 20px;
     line-height: 30px;
     order: 4;
+    margin-left: 1px;
+    margin-bottom: 4px;
+
+    &__wrapper {
+      margin-top: -5px;
+      margin-left: 26px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slim-link {
+    &__wrapper {
+      margin-left: 29px;
+    }
   }
 }

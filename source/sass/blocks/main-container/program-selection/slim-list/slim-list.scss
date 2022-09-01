@@ -4,11 +4,27 @@
   margin: 0;
   padding: 20px 0 0;
   list-style-type: none;
+
+  .slim-item:nth-child(2) .slim-link {
+    &__wrapper {
+      margin-left: 18px;
+    }
+  }
 }
 
 @media (min-width: $tablet-width) {
   .slim-list {
     padding: 0;
+
+    .slim-item:nth-child(2) .slim-link {
+      &__wrapper {
+        margin-left: 27px;
+      }
+    }
+
+    .slim-item:nth-child(2) .slim-image {
+      right: 60px;
+    }
   }
 }
 
@@ -18,5 +34,15 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0;
+
+    .slim-item:nth-child(2) .slim-link {
+      &__wrapper {
+        margin-left: 28px;
+      }
+    }
+
+    .slim-item:nth-child(2) .slim-image {
+      right: 2px;
+    }
   }
 }
