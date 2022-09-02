@@ -49,7 +49,7 @@
     flex-direction: row;
     width: 440px;
     margin-top: 15px;
-    padding: 1px;
+    padding: 0;
 
     &__toggle {
       display: none;
@@ -62,7 +62,7 @@
     }
 
     &--catalog {
-      margin-top: 16px;
+      margin-top: 13px;
     }
   }
 }
@@ -76,6 +76,19 @@
     .main-nav__wrapper {
       display: block;
       position: relative;
+    }
+
+    &--catalog {
+      margin-top: 9px;
+      margin-right: 1px;
+
+      .nav-item:nth-child(1) {
+        margin-left: -1px;
+      }
+
+      .nav-item:nth-child(3) {
+        margin-right: -1px;
+      }
     }
   }
 }

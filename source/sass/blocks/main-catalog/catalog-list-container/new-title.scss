@@ -2,7 +2,9 @@
   &__title {
     font-size: 16px;
     line-height: 20px;
+    letter-spacing: -0.3px;
     margin: 0;
+    margin-left: 2px;
     padding: 0;
     text-transform: uppercase;
     color: #111111;
@@ -22,7 +24,8 @@
 @media (min-width: $tablet-width) {
   .new-title {
     &__title {
-      margin: 0 auto 23px;
+      margin: 0 46px 23px;
+
       max-width: 155px;
       font-size: 20px;
       line-height: 22px;
@@ -40,6 +43,15 @@
 
 @media (min-width: $desktop-width) {
   .new-title {
-    max-width: 180px;
+    width: 177px;
+
+    &__title {
+      margin: -1px 25px 23px 20px;
+    }
+
+    &__info {
+      margin: 0;
+      margin-left: 1px;
+    }
   }
 }

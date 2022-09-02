@@ -5,7 +5,8 @@
     font-size: 36px;
     line-height: 36px;
     margin: 0;
-    padding: 20px 0 41px 20px;
+    padding: 28px 0 40px 20px;
+    font-weight: 400;
   }
 }
 
@@ -15,7 +16,7 @@
       font-size: 60px;
       line-height: 60px;
       margin: 0;
-      padding: 64px 0 82px 30px;
+      padding: 62px 0 89px 30px;
     }
   }
 }
@@ -23,7 +24,7 @@
 @media (min-width: $desktop-width) {
   .main-catalog {
     &__title {
-      padding: 74px 110px 84px;
+      padding: 72px 110px 84px;
     }
   }
 }

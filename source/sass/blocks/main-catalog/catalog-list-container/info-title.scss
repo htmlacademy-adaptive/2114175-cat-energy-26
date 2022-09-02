@@ -1,5 +1,5 @@
 .info-title {
-  max-width: 81px;
+  width: 86px;
 
   &__title {
     margin: 0;
@@ -13,23 +13,28 @@
 
 @media (min-width: $tablet-width) {
   .info-title {
-    max-width: 155px;
+    width: 155px;
     text-align: center;
 
     &__title {
       font-size: 20px;
       line-height: 24px;
+      margin-left: 3px;
     }
   }
 }
 
 @media (min-width: $desktop-width) {
   .info-title {
-    max-width: 145px;
+    width: 145px;
 
     &__title {
       font-size: 20px;
       line-height: 21px;
+
+      span {
+        margin-left: 5px;
+      }
     }
   }
 }

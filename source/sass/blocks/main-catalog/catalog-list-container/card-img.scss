@@ -4,6 +4,10 @@
   align-items: center;
   width: 140px;
   height: 112px;
+
+  &__img {
+    margin-top: 2px;
+  }
 }
 
 @media (min-width: $tablet-width) {

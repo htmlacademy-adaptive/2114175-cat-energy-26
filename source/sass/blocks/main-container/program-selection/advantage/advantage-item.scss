@@ -12,10 +12,10 @@
 
   &:last-child {
     margin-bottom: 0;
-  }
 
-  &:nth-child(4) br {
-    display: none;
+    .advantage-item__info br {
+      display: none;
+    }
   }
 }
 
@@ -49,6 +49,10 @@
 
     &:nth-child(4) {
       width: 249px;
+
+      .advantage-item__info br {
+        display: block;
+      }
     }
 
     &::after {
@@ -75,10 +79,6 @@
 
     &:nth-child(4)::after {
       left: 113px;
-    }
-
-    &:nth-child(4) br {
-      display: block;
     }
   }
 }
