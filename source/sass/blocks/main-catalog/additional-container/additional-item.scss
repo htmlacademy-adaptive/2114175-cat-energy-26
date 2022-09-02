@@ -113,12 +113,43 @@
     border-left: none;
     margin-top: 0;
 
+    .search-list__term {
+      margin-top: 6px;
+    }
+
+    .search-list__definition {
+      margin-top: 6px;
+    }
+
     &:last-child {
+      margin-bottom: 0;
+      padding: 14px 1px 16px;
       border-bottom: 1px solid #cdcdcd;
+
+      .search-list__definition {
+        margin-top: 6px;
+      }
+    }
+
+    &:nth-child(2) {
+      padding: 4px 1px 17px;
+
+      .search-list__term {
+        margin-top: 16px;
+      }
+
+      .search-list__definition {
+        margin-top: 15px;
+        margin-right: 10px;
+      }
+
+      .additional-button {
+        margin-top: 10px;
+      }
     }
 
     &__button {
-      margin-top: 0;
+      margin-top: 1px;
     }
 
     &__title {
