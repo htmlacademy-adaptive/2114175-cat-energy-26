@@ -1,10 +1,10 @@
 .user-comment {
-  padding: 0 20px 23px;
+  padding: 0 20px 22px;
 
   &__title {
     margin: 0;
     position: relative;
-    margin-bottom: 34px;
+    margin-bottom: 37px;
     font-size: 24px;
     line-height: 26px;
     font-weight: 400;
@@ -12,7 +12,7 @@
     &::after {
       content: "";
       position: absolute;
-      top: 17px;
+      top: 14px;
       right: -20px;
       height: 2px;
       width: 158px;
@@ -25,9 +25,9 @@
     font-size: 16px;
     line-height: 18px;
     resize: none;
-    width: 280px;
-    height: 150px;
-    padding: 9px 12px 9px 15px;
+    width: 251px;
+    height: 130px;
+    padding: 8px 12px 9px 15px;
     border: 1px solid #e7e7e7;
     color: #444444;
     outline: none;
@@ -41,7 +41,7 @@
 
 @media (min-width: $tablet-width) {
   .user-comment {
-    padding: 0 67px 65px 69px;
+    padding: 0 67px 62px 69px;
 
     &__title {
       margin-bottom: 76px;
@@ -51,7 +51,7 @@
       &::before {
         content: "";
         position: absolute;
-        top: 17px;
+        top: 22px;
         left: -69px;
         height: 2px;
         width: 30px;
@@ -59,6 +59,7 @@
       }
 
       &::after {
+        top: 22px;
         right: -67px;
         width: 478px;
       }
@@ -66,8 +67,8 @@
 
     &__textarea {
       margin-left: 1px;
-      width: 631px;
-      height: 174px;
+      width: 591px;
+      height: 152px;
       padding: 10px 19px;
       font-size: 20px;
       line-height: 30px;
@@ -77,7 +78,7 @@
 
 @media (min-width: $desktop-width) {
   .user-comment {
-    padding: 0 110px 67px;
+    padding: 0 110px 64px;
 
     &__title {
       &::before {
@@ -92,7 +93,10 @@
     }
 
     &__textarea {
-      width: 1220px;
+      margin-left: 0;
+      padding: 9px 19px;
+      width: 1180px;
+      height: 154px;
     }
   }
 }

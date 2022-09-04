@@ -1,6 +1,6 @@
 .new-item {
   min-width: 280px;
-  padding: 20px 18px 23px 20px;
+  padding: 24px 20px 24px 20px;
   border-bottom: 1px solid #ebebeb;
 
   &__button {
@@ -12,11 +12,11 @@
   .new-item {
     text-align: center;
     min-width: 245px;
-    padding: 52px 37px 38px 38px;
+    padding: 51px 37px 34px 38px;
     border: 1px solid #ebebeb;
 
     &__button {
-      margin-top: 87px;
+      margin-top: 88px;
     }
   }
 }
@@ -24,6 +24,10 @@
 @media (min-width: $desktop-width) {
   .new-item {
     min-width: 169px;
-    padding: 51px 38px 41px;
+    padding: 51px 36px 40px;
+
+    &__button {
+      margin-top: 87px;
+    }
   }
 }

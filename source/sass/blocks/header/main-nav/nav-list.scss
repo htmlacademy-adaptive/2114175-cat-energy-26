@@ -12,6 +12,10 @@
     flex-direction: row;
     justify-content: space-between;
     width: 440px;
+
+    &__item:nth-child(2) {
+      margin-left: -6px;
+    }
   }
 }
 

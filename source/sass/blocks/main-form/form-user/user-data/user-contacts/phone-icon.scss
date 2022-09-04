@@ -6,8 +6,15 @@
 }
 
 @media (min-width: $tablet-width) {
-  .email-icon {
-    width: 20px;
-    height: 20px;
+  .phone-icon {
+    position: absolute;
+    top: 15px;
+    right: 17px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .phone-icon {
+    right: 14px;
   }
 }

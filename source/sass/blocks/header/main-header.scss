@@ -12,7 +12,7 @@
 @media (min-width: $tablet-width) {
   .main-header {
     flex-direction: row;
-    align-items: end;
+    align-items: none;
     max-width: 708px;
     min-width: 708px;
     padding: 24px 30px 0;

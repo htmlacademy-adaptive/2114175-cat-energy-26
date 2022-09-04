@@ -3,7 +3,7 @@
   line-height: 20px;
   background-color: #68b738;
   width: calc(100% - 106px);
-  padding: 8px 53px;
+  padding: 10px 52px 10px 53px;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
@@ -11,14 +11,15 @@
 
 @media (min-width: $tablet-width) {
   .form-button {
+    font-size: 20px;
     width: auto;
-    padding: 16px 53px;
+    padding: 16px 65px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .form-button {
     width: auto;
-    padding: 16px 223px;
+    padding: 16px 208px;
   }
 }

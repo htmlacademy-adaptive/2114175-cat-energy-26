@@ -9,23 +9,24 @@
   .catalog-list {
     padding: 0 30px 68px;
     grid-template-columns: 324px 324px;
-    gap: 60px;
+    row-gap: 67px;
+    column-gap: 60px;
 
     &__new {
-      margin-top: 73px;
+      margin-top: 75px;
     }
   }
 }
 
 @media (min-width: $desktop-width) {
   .catalog-list {
-    padding: 0 110px 76px;
+    padding: 0 110px 75px;
     grid-template-columns: 245px 245px 245px 245px;
     row-gap: 63px;
     column-gap: 80px;
 
     &__new {
-      margin-top: 80px;
+      margin-top: 81px;
     }
   }
 }

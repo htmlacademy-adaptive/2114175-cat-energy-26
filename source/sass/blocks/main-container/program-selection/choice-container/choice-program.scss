@@ -40,12 +40,17 @@
 
     &__info {
       margin: 0;
+      margin-left: 2px;
     }
   }
 }
 
 @media (min-width: $desktop-width) {
   .choice-program {
+    &__title {
+      margin: 45px;
+    }
+
     &__info {
       margin: 0;
     }

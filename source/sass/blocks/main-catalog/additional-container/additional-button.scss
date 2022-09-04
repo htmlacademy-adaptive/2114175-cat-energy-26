@@ -16,3 +16,10 @@
     margin-left: 38px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .additional-button {
+    width: 136px;
+    margin-right: -1px;
+  }
+}

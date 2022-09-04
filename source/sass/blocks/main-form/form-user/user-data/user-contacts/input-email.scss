@@ -1,7 +1,7 @@
 .input-email {
   margin: 0;
   width: calc(100% - 68px);
-  padding: 9px 51px 10px 15px;
+  padding: 12px 51px 12px 15px;
   border: 1px solid #e7e7e7;
   font-family: inherit;
   font-size: 16px;
@@ -43,8 +43,14 @@
 
 @media (min-width: $tablet-width) {
   .input-email {
-    padding: 10px 51px 10px 15px;
+    padding: 10px 47px 11px 20px;
     font-size: 20px;
     line-height: 29px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .input-email {
+    padding: 10px 47px 11px 18px;
   }
 }

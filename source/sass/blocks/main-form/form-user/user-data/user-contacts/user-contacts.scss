@@ -1,10 +1,12 @@
 .user-contacts {
   display: flex;
   flex-direction: column;
-  padding: 0 20px 9px 20px;
+  padding: 0 20px 11px 20px;
 
   &__title {
+    margin: 0;
     position: relative;
+    margin-top: 27px;
     margin-bottom: 35px;
     font-family: inherit;
     font-size: 24px;
@@ -15,7 +17,7 @@
     &::after {
       content: "";
       position: absolute;
-      top: 17px;
+      top: 15px;
       right: -20px;
       height: 2px;
       width: 99px;
@@ -26,9 +28,10 @@
 
 @media (min-width: $tablet-width) {
   .user-contacts {
-    padding: 0 66px 65px 69px;
+    padding: 0 66px 43px 69px;
 
     &__title {
+      margin-left: -1px;
       margin-bottom: 76px;
       font-size: 36px;
       line-height: 36px;
@@ -36,7 +39,7 @@
       &::before {
         content: "";
         position: absolute;
-        top: 17px;
+        top: 22px;
         left: -69px;
         height: 2px;
         width: 30px;
@@ -44,6 +47,7 @@
       }
 
       &::after {
+        top: 22px;
         right: -66px;
         width: 145px;
       }
@@ -53,11 +57,13 @@
 
 @media (min-width: $desktop-width) {
   .user-contacts {
-    padding: 0 110px 69px 111px;
+    padding: 0 110px 67px 111px;
 
     &__title {
+      margin-left: -2px;
+
       &::before {
-        left: -111px;
+        left: -109px;
         width: 70px;
       }
 

@@ -1,11 +1,21 @@
 .advantage-item {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 
   &__info {
     font-family: "Arial", sans-serif;
     color: #444444;
+    margin: 0;
     margin-left: 20px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+
+    .advantage-item__info br {
+      display: none;
+    }
   }
 }
 
@@ -30,7 +40,7 @@
     }
 
     &:nth-child(2) {
-      width: 246px;
+      width: 249px;
     }
 
     &:nth-child(3) {
@@ -39,6 +49,10 @@
 
     &:nth-child(4) {
       width: 249px;
+
+      .advantage-item__info br {
+        display: block;
+      }
     }
 
     &::after {
@@ -75,6 +89,14 @@
 
     &__info {
       margin-left: 0;
+    }
+
+    &:nth-child(2) {
+      margin-left: 17px;
+    }
+
+    &:nth-child(3) {
+      margin-left: -1px;
     }
   }
 }

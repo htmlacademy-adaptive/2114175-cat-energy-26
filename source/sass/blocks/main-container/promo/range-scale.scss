@@ -5,6 +5,15 @@
   justify-content: center;
 
   &__button {
-    margin-left: -18px;
+    margin-top: 8px;
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .range-scale {
+    &__button {
+      margin-top: 0;
+    }
   }
 }

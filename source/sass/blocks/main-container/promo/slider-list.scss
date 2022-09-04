@@ -11,7 +11,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: url("../img/mobile-before.png") center left no-repeat;
+    background: url("../img/mobile-before.png") top 3px left no-repeat;
     background-size: 280px 256px;
     width: 50%;
     min-height: 256px;
@@ -25,7 +25,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: url("../img/mobile-after.png") top right no-repeat;
+    background: url("../img/mobile-after.png") top 3px right no-repeat;
     background-size: 280px 256px;
     width: 50%;
     min-height: 256px;

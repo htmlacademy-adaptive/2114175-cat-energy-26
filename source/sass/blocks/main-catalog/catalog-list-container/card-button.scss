@@ -26,13 +26,24 @@
 
 @media (min-width: $tablet-width) {
   .card-button {
+    margin-left: 3px;
     width: calc(100% - 110px);
+
+    &--new {
+      width: calc(100% - 104px);
+      margin-left: -1px;
+    }
   }
 }
 
 @media (min-width: $desktop-width) {
   .card-button {
     padding: 10px 39px;
-    width: calc(100% - 72px);
+    width: calc(100% - 83px);
+
+    &--new {
+      width: calc(100% - 78px);
+      margin-left: 0;
+    }
   }
 }

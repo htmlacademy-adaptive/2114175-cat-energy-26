@@ -15,7 +15,7 @@
     }
 
     .promo-value {
-      padding: 7px 20px 11px;
+      padding: 9px 20px 10px;
     }
   }
 }
@@ -24,19 +24,19 @@
   .promo-item {
     &__label {
       width: 114px;
-      left: 24px;
-      top: 45px;
+      left: 23px;
+      top: 47px;
     }
 
     &:last-child {
       .promo-item__label {
         width: 142px;
-        left: 10px;
-        top: 42px;
+        left: 23px;
+        top: 48px;
       }
 
       .promo-value {
-        padding: 14px 29px 11px;
+        padding: 11px 29px 14px;
       }
     }
   }
