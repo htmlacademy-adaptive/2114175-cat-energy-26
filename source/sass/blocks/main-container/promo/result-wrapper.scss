@@ -1,0 +1,18 @@
+.result-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: $tablet-width) {
+  .result-wrapper {
+    margin: 13px 37px 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .result-wrapper {
+    margin: 0;
+    margin-right: 1px;
+  }
+}

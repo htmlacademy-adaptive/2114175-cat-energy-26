@@ -1,0 +1,30 @@
+.main-catalog {
+  flex-grow: 1;
+
+  &__title {
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    padding: 28px 0 40px 20px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .main-catalog {
+    &__title {
+      font-size: 60px;
+      line-height: 60px;
+      margin: 0;
+      padding: 62px 0 89px 30px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-catalog {
+    &__title {
+      padding: 72px 110px 84px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.new-item-wrapper {
+  text-align: center;
+
+  &__info {
+    margin-top: 21px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .new-item-wrapper {
+    text-align: center;
+
+    &__info {
+      margin-top: 46px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .new-item-wrapper {
+    text-align: center;
+  }
+}

@@ -1,0 +1,26 @@
+.choice-button {
+  display: block;
+  font-family: inherit;
+  padding: 11px 26px;
+  width: calc(100% - 92px);
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  background-color: #68b738;
+}
+
+@media (min-width: $tablet-width) {
+  .choice-button {
+    font-size: 20px;
+    line-height: 20px;
+    width: 192px;
+    padding: 17px 26px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .choice-button {
+    width: 192px;
+  }
+}

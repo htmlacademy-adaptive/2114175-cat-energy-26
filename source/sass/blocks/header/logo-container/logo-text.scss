@@ -1,0 +1,27 @@
+.logo-text {
+  min-width: 101px;
+  margin-left: 57px;
+  margin-top: 8px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 80%;
+  }
+
+  &:active {
+    opacity: 60%;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .logo-text {
+    display: none;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo-text {
+    display: none;
+  }
+}

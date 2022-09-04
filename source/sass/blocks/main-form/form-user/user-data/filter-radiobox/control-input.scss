@@ -1,0 +1,12 @@
+.control-input:checked + .control-mark {
+  background-image: url("../img/radiobutton.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 14px 14px;
+}
+
+@media (min-width: $tablet-width) {
+  .control-input:checked + .control-mark {
+    background-size: 18px 18px;
+  }
+}

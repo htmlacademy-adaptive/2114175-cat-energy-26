@@ -1,0 +1,55 @@
+.choice-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-height: 480px;
+  position: relative;
+
+  &__promo {
+    position: absolute;
+    top: 167px;
+    margin-left: 20px;
+  }
+
+  &__button {
+    margin: 138px 20px 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .choice-container {
+    padding: 62px 30px 0 87px;
+    min-height: 810px;
+    min-width: 708px;
+
+    &__promo {
+      position: absolute;
+      margin: 0;
+      top: 262px;
+      left: 0;
+    }
+
+    &__button {
+      margin: 0;
+      margin-top: 48px;
+      margin-left: 3px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .choice-container {
+    padding: 62px 30px 0 80px;
+    min-height: 516px;
+
+    &__promo {
+      top: 25px;
+      left: 448px;
+    }
+
+    &__button {
+      margin: 0;
+      margin-top: 52px;
+    }
+  }
+}

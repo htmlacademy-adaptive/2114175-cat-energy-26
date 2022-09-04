@@ -1,0 +1,29 @@
+.nav-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .nav-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .nav-link {
+    font-size: 20px;
+    line-height: 30px;
+
+    &--colored {
+      color: #ffffff;
+      background-color: transparent;
+    }
+  }
+}

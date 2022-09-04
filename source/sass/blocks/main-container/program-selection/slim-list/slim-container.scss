@@ -1,0 +1,15 @@
+.slim-container {
+  padding: 0 20px 0 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .slim-container {
+    padding: 0 30px 45px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slim-container {
+    padding: 82px 110px 71px 110px;
+  }
+}

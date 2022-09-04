@@ -1,0 +1,23 @@
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &--colored {
+    background-color: #f2f2f2;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .location {
+    position: relative;
+
+    &__info {
+      position: absolute;
+      z-index: 1;
+      top: 95px;
+      left: 110px;
+      background-color: #ffffff;
+    }
+  }
+}

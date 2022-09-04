@@ -1,0 +1,43 @@
+.form-style {
+  width: calc(100% - 32px);
+  margin: 0;
+  padding: 12px 15px 13px;
+  border: 1px solid #e7e7e7;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  outline: none;
+  color: #444444;
+
+  &::placeholder {
+    text-transform: uppercase;
+    color: #444444;
+  }
+
+  &:hover {
+    border-color: #cdcdcd;
+  }
+
+  &:focus {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    border: 2px solid #444444;
+  }
+
+  &:invalid {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    border: 2px solid #ff8282;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .form-style {
+    width: calc(100% - 40px);
+    padding: 10px 19px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

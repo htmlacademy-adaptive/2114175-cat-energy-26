@@ -1,0 +1,22 @@
+.email-icon {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  fill: none;
+  stroke: #222222;
+}
+
+@media (min-width: $tablet-width) {
+  .email-icon {
+    width: 25px;
+    height: 15px;
+    top: 19px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .email-icon {
+    top: 18px;
+    right: 16px;
+  }
+}

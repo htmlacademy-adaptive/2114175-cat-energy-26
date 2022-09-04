@@ -1,0 +1,11 @@
+.filter-item {
+  margin: 0;
+  margin-bottom: 13px;
+  padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .filter-item {
+    margin-bottom: 13px;
+  }
+}

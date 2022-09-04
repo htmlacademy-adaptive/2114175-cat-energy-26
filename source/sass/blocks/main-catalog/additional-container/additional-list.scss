@@ -1,0 +1,22 @@
+.additional-list {
+  margin: 0;
+  margin-top: 35px;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (min-width: $tablet-width) {
+  .additional-list {
+    max-width: 708px;
+    margin: 0;
+    margin-top: 79px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .additional-list {
+    margin: 0;
+    min-width: 894px;
+    max-width: 894px;
+  }
+}

@@ -1,0 +1,25 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 20px 15px;
+  min-width: 280px;
+
+  &--form {
+    padding: 11px 20px 15px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .logo-container {
+    min-width: 174px;
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo-container {
+    min-width: 202px;
+    padding: 0;
+  }
+}

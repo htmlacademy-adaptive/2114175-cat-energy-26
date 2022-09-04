@@ -1,0 +1,23 @@
+.pro-image {
+  position: absolute;
+  bottom: 11px;
+  left: -9px;
+}
+
+@media (min-width: $tablet-width) {
+  .pro-image {
+    width: 268px;
+    height: 112px;
+    bottom: 44px;
+    left: -36px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .pro-image {
+    width: 134px;
+    height: 56px;
+    bottom: 24px;
+    left: -19px;
+  }
+}

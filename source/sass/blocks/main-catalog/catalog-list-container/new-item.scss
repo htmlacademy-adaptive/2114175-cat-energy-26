@@ -1,0 +1,33 @@
+.new-item {
+  min-width: 280px;
+  padding: 24px 20px 24px 20px;
+  border-bottom: 1px solid #ebebeb;
+
+  &__button {
+    margin-top: 21px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .new-item {
+    text-align: center;
+    min-width: 245px;
+    padding: 51px 37px 34px 38px;
+    border: 1px solid #ebebeb;
+
+    &__button {
+      margin-top: 88px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .new-item {
+    min-width: 169px;
+    padding: 51px 36px 40px;
+
+    &__button {
+      margin-top: 87px;
+    }
+  }
+}

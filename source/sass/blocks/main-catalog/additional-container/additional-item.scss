@@ -1,0 +1,159 @@
+.additional-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 13px 0 18px;
+  border-top: 1px solid #cdcdcd;
+
+  &:nth-child(2) {
+    .additional-button {
+      margin-top: 14px;
+    }
+  }
+
+  &:last-child {
+    border-bottom: 1px solid #cdcdcd;
+  }
+
+  &__title {
+    margin: 0;
+    margin-left: 1px;
+    padding: 0;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+  }
+
+  &__list {
+    margin-top: 13px;
+    margin-left: -1px;
+  }
+
+  &__button {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .additional-item {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 38px 27px;
+    border-top: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    border-left: 1px solid #cdcdcd;
+
+    &:last-child {
+      border-bottom: 1px solid #cdcdcd;
+    }
+
+    &__title {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 20px;
+      margin-left: 0;
+    }
+
+    &__list {
+      margin-top: 2px;
+    }
+
+    &__button {
+      margin-top: 22px;
+    }
+
+    .search-list__term {
+      margin-top: 1px;
+    }
+
+    &:nth-child(2) {
+      padding: 26px 38px 27px;
+
+      .search-list {
+        margin-top: 3px;
+        min-width: 158px;
+      }
+
+      .additional-button {
+        margin-top: 22px;
+      }
+    }
+
+    &:nth-child(3) {
+      .search-list {
+        margin-top: 2px;
+        min-width: 140px;
+      }
+    }
+
+    &:nth-child(4) {
+      padding: 26px 38px 27px;
+
+      .search-list {
+        margin-top: 2px;
+        min-width: 216px;
+      }
+
+      .search-list__definition {
+        margin-top: 1px;
+      }
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .additional-item {
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 14px 1px 16px;
+    border-top: 1px solid #cdcdcd;
+    border-right: none;
+    border-left: none;
+    margin-top: 0;
+
+    .search-list__term {
+      margin-top: 6px;
+    }
+
+    .search-list__definition {
+      margin-top: 6px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+      padding: 14px 1px 16px;
+      border-bottom: 1px solid #cdcdcd;
+
+      .search-list__definition {
+        margin-top: 6px;
+      }
+    }
+
+    &:nth-child(2) {
+      padding: 4px 1px 17px;
+
+      .search-list__term {
+        margin-top: 16px;
+      }
+
+      .search-list__definition {
+        margin-top: 15px;
+        margin-right: 10px;
+      }
+
+      .additional-button {
+        margin-top: 10px;
+      }
+    }
+
+    &__button {
+      margin-top: 1px;
+    }
+
+    &__title {
+      min-width: 161px;
+    }
+  }
+}

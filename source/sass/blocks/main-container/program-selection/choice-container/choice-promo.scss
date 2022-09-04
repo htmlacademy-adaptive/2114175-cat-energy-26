@@ -1,0 +1,15 @@
+.choice-promo {
+  z-index: 2;
+}
+
+@media (min-width: $tablet-width) {
+  .choice-promo {
+    z-index: -1;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .choice-promo {
+    z-index: 1;
+  }
+}

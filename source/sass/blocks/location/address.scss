@@ -1,0 +1,42 @@
+.address {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  width: 140px;
+  margin: 0;
+  color: #444444;
+  margin-top: 1px;
+
+  &__city {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .address {
+    font-size: 16px;
+    line-height: 20px;
+    width: 160px;
+    text-align: end;
+    margin-top: -3px;
+
+    &__city {
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 19px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .address {
+    margin-right: -1px;
+    width: 156px;
+    text-align: start;
+  }
+}

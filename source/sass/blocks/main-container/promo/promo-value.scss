@@ -1,0 +1,17 @@
+.promo-value {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 9px 41px 10px 42px;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .promo-value {
+    padding: 11px 56px 14px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+}

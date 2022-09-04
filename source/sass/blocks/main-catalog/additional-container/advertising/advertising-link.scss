@@ -1,0 +1,48 @@
+.advertising-link {
+  display: flex;
+  flex-direction: column;
+
+  &__icon {
+    display: block;
+    margin: 0 43px 48px;
+  }
+
+  &__info {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 161px;
+    text-align: center;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advertising-link {
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__icon {
+      margin: 0;
+    }
+
+    &__info {
+      margin-top: 15px;
+      text-align: start;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advertising-link {
+    flex-direction: column;
+
+    &__icon {
+      display: block;
+      margin: 0 auto 33px;
+    }
+
+    &__info {
+      text-align: center;
+    }
+  }
+}

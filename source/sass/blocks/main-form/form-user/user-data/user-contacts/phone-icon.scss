@@ -1,0 +1,20 @@
+.phone-icon {
+  position: absolute;
+  top: 13px;
+  right: 12px;
+  fill: #222222;
+}
+
+@media (min-width: $tablet-width) {
+  .phone-icon {
+    position: absolute;
+    top: 15px;
+    right: 17px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .phone-icon {
+    right: 14px;
+  }
+}

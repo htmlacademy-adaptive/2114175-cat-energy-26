@@ -1,0 +1,57 @@
+.slim-link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &__wrapper {
+    margin-top: -2px;
+    margin-left: 16px;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  &__arrow {
+    transform: translateX(-2px);
+  }
+
+  &:hover {
+    .slim-link__arrow {
+      transform: translateX(0);
+    }
+  }
+
+  &:active {
+    opacity: 30%;
+
+    .slim-link__arrow {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .slim-link {
+    font-size: 20px;
+    line-height: 30px;
+    order: 4;
+    margin-left: 1px;
+    margin-bottom: 4px;
+
+    &__wrapper {
+      margin-top: -5px;
+      margin-left: 26px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slim-link {
+    &__wrapper {
+      margin-left: 29px;
+    }
+  }
+}
