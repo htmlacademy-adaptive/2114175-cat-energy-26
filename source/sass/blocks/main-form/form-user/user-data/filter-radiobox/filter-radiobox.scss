@@ -1,19 +1,21 @@
 .filter-radiobox {
   margin: 0;
-  padding: 22px 0 4px;
+  padding: 22px 20px 5px;
   border-bottom: 1px solid #d9d9d9;
 }
 
 @media (min-width: $tablet-width) {
   .filter-radiobox {
     margin: 0;
-    padding: 24px 28px 11px;
-    border: 1px solid #e7e7e7;
+    padding: 52px 67px 48px 71px;
+    border: none;
   }
 }
 
 @media (min-width: $desktop-width) {
   .filter-radiobox {
-    min-width: 568px;
+    min-width: 570px;
+    padding: 0;
+    margin-right: -2px;
   }
 }

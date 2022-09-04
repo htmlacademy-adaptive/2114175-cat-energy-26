@@ -13,19 +13,21 @@
 
 @media (min-width: $tablet-width) {
   .form-wrapper {
-    padding: 64px 65px 66px;
+    padding: 62px 69px 66px;
 
     &__info {
       margin-top: 54px;
+      margin-left: 2px;
     }
   }
 }
 
 @media (min-width: $desktop-width) {
   .form-wrapper {
-    padding: 73px 110px 66px;
+    padding: 71px 110px 66px;
 
     &__info {
+      margin-left: 1px;
       margin-top: 56px;
     }
   }

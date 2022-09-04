@@ -10,3 +10,10 @@
     margin-bottom: 15px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .filter-list {
+    padding: 24px 27px 11px;
+    border: 1px solid #e7e7e7;
+  }
+}

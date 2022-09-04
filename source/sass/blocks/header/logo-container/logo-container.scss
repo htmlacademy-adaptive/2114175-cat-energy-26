@@ -4,6 +4,10 @@
   flex-wrap: wrap;
   padding: 10px 20px 15px;
   min-width: 280px;
+
+  &--form {
+    padding: 11px 20px 15px;
+  }
 }
 
 @media (min-width: $tablet-width) {

@@ -17,9 +17,13 @@
 @media (min-width: $tablet-width) {
   .user-email {
     &__title {
-      margin-right: 14px;
+      margin-right: 19px;
       font-size: 20px;
       line-height: 30px;
+    }
+
+    &:nth-child(2) .user-email__title {
+      margin-right: 16px;
     }
   }
 }
@@ -27,5 +31,17 @@
 @media (min-width: $desktop-width) {
   .user-email {
     min-width: 569px;
+
+    &__title {
+      margin-right: 21px;
+    }
+
+    &:nth-child(2) {
+      margin-right: 0;
+    }
+
+    &:nth-child(2) .user-email__title {
+      margin-right: 17px;
+    }
   }
 }
