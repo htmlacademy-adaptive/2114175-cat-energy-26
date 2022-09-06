@@ -12,6 +12,10 @@
     text-transform: uppercase;
     margin-top: 0;
   }
+
+  &:hover .control-mark {
+    border-color: #bababa;
+  }
 }
 
 @media (min-width: $tablet-width) {
