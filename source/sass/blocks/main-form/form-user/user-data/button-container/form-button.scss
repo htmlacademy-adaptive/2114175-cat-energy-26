@@ -1,12 +1,13 @@
 .form-button {
+  font-family: inherit;
   font-size: 16px;
   line-height: 20px;
   background-color: #68b738;
-  width: calc(100% - 106px);
   padding: 10px 52px 10px 53px;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
+  border: none;
 }
 
 @media (min-width: $tablet-width) {

@@ -132,7 +132,11 @@
     }
 
     &:nth-child(2) {
-      padding: 4px 1px 17px;
+      padding: 4px 1px 16px;
+
+      .additional-item__title {
+        margin-top: 11px;
+      }
 
       .search-list__term {
         margin-top: 16px;
@@ -144,7 +148,8 @@
       }
 
       .additional-button {
-        margin-top: 10px;
+        margin-top: 11px;
+        padding: 10px 54px;
       }
     }
 
