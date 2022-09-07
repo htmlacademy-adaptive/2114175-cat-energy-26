@@ -5,6 +5,11 @@
   background-size: 14px 14px;
 }
 
+
+.control-input:focus + .control-mark {
+  border-color: #bababa;
+}
+
 .control-input:disabled + .control-mark {
   opacity: 30%;
 }

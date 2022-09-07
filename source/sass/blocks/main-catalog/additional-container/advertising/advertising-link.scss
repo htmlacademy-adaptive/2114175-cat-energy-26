@@ -1,6 +1,8 @@
 .advertising-link {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  color: #ffffff;
 
   &__icon {
     display: block;
@@ -38,7 +40,7 @@
 
     &__icon {
       display: block;
-      margin: 0 auto 33px;
+      margin: 0 39px 33px 41px;
     }
 
     &__info {

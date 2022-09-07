@@ -9,6 +9,10 @@
   border-bottom: 1px solid #d9d9d9;
   list-style-type: none;
 
+  &--catalog {
+    margin-left: -2px;
+  }
+
   &__item:nth-child(2) {
     margin-left: -4px;
   }
@@ -22,6 +26,10 @@
     border: none;
     margin-top: 4px;
     margin-left: 22px;
+
+    &--catalog {
+      margin-left: 23px;
+    }
 
     &__item:nth-child(1) {
       margin-left: -1px;
@@ -39,5 +47,9 @@
     margin-top: 1px;
     margin-left: 26px;
     padding: 0;
+
+    &--catalog {
+      margin-left: 25px;
+    }
   }
 }

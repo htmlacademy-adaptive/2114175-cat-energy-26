@@ -26,11 +26,11 @@
 @media (min-width: $tablet-width) {
   .advertising {
     padding: 57px 124px 60px 77px;
-    background-size: 100%;
-    background-position-y: -326px;
     min-height: 82px;
+    background: url("../img/advertising-bg-tablet.jpg") no-repeat;
 
     @media (min-resolution: 2dppx) {
+      background-image: url("../img/advertising-bg-tablet@2x.jpg");
       background-size: 707px auto;
     }
   }
@@ -38,13 +38,13 @@
 
 @media (min-width: $desktop-width) {
   .advertising {
-    background-size: auto;
-    background-position-y: 0;
-    padding: 56px 43px 42px 41px;
+    padding: 56px 43px 42px 42px;
+    background: url("../img/advertising-bg.png") no-repeat;
 
     @media (min-resolution: 2dppx) {
-      background-size: 290px auto;
-      background-position: -30px 0;
+      background-image: url("../img/advertising-bg@2x.png");
+      background-size: 280px auto;
+      background-position: -34px 0;
     }
   }
 }

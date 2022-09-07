@@ -5,6 +5,10 @@
   background-size: 18px 14px;
 }
 
+.checkbox-input:focus + .checkbox-mark {
+  border-color: #bababa;
+}
+
 .checkbox-input:disabled + .checkbox-mark {
   opacity: 30%;
 }
