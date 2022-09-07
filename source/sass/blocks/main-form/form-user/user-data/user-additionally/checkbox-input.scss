@@ -5,6 +5,18 @@
   background-size: 18px 14px;
 }
 
+.checkbox-input:focus + .checkbox-mark {
+  border-color: #bababa;
+}
+
+.checkbox-input:disabled + .checkbox-mark {
+  opacity: 30%;
+}
+
+.checkbox-input:disabled + .checkbox-mark + .checkbox-title__name {
+  opacity: 30%;
+}
+
 @media (min-width: $tablet-width) {
   .checkbox-input:checked + .checkbox-mark {
     background-size: 24px 19px;

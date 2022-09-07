@@ -13,6 +13,10 @@
     margin-top: -2px;
     margin-left: 1px;
   }
+
+  &:hover .checkbox-mark {
+    border-color: #bababa;
+  }
 }
 
 @media (min-width: $tablet-width) {

@@ -5,6 +5,19 @@
   background-size: 14px 14px;
 }
 
+
+.control-input:focus + .control-mark {
+  border-color: #bababa;
+}
+
+.control-input:disabled + .control-mark {
+  opacity: 30%;
+}
+
+.control-input:disabled + .control-mark + .control-input-name {
+  opacity: 30%;
+}
+
 @media (min-width: $tablet-width) {
   .control-input:checked + .control-mark {
     background-size: 18px 18px;
