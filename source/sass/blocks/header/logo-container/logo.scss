@@ -2,11 +2,27 @@
   width: 33px;
   cursor: pointer;
 
+  &__image {
+    width: 100%;
+  }
+
   &:hover {
     opacity: 80%;
   }
 
   &:active {
     opacity: 60%;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .logo {
+    width: 174px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .logo {
+    width: 203px;
   }
 }

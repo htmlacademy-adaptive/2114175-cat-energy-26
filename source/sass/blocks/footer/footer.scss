@@ -1,11 +1,13 @@
 .footer {
+  background-color: #f2f2f2;
+
   &__wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #f2f2f2;
     padding: 0 20px;
     min-width: 280px;
+    max-width: 280px;
   }
 }
 
@@ -16,6 +18,7 @@
       flex-direction: row;
       padding: 58px 30px 55px 30px;
       min-width: 708px;
+      max-width: 708px;
     }
   }
 }
@@ -25,6 +28,7 @@
     &__wrapper {
       padding: 59px 110px 58px;
       min-width: 1220px;
+      max-width: 1220px;
     }
   }
 }

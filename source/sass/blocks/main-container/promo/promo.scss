@@ -1,27 +1,15 @@
 .promo {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 25px 20px 44px;
   background-color: #eaeaea;
-
-  &__wrapper {
-    margin-bottom: 17px;
-  }
 }
 
 @media (min-width: $tablet-width) {
   .promo {
-    justify-content: space-between;
-    width: 707px;
-    padding: 43px 31px 100px 30px;
     background: linear-gradient(#ffffff 619px, #eaeaea 462px);
   }
 }
 
 @media (min-width: $desktop-width) {
   .promo {
-    width: 1222px;
-    padding: 0 108px 49px 110px;
     background: linear-gradient(#ffffff 135px, #eaeaea 135px, #eaeaea 462px);
   }
 }

@@ -1,33 +1,44 @@
 .form-wrapper {
-  padding: 27px 20px 39px;
+  padding: 27px 0 38px;
+  width: 280px;
 
   &__title {
     margin: 0;
+    margin-left: 20px;
   }
 
   &__info {
-    margin: 0;
-    margin-top: 37px;
+    margin: 37px 0 0 20px;
   }
 }
 
 @media (min-width: $tablet-width) {
   .form-wrapper {
-    padding: 62px 69px 66px;
+    padding: 62px 0 66px;
+    width: 768px;
+
+    &__title {
+      margin-left: 69px;
+    }
 
     &__info {
       margin-top: 54px;
-      margin-left: 2px;
+      margin-left: 70px;
     }
   }
 }
 
 @media (min-width: $desktop-width) {
   .form-wrapper {
-    padding: 71px 110px 66px;
+    padding: 71px 0 66px;
+    width: 1440px;
+
+    &__title {
+      margin-left: 110px;
+    }
 
     &__info {
-      margin-left: 1px;
+      margin-left: 110px;
       margin-top: 56px;
     }
   }

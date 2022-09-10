@@ -12,7 +12,8 @@
   }
 
   &:nth-child(3) .user-name__name {
-    margin-right: 15px;
+    margin-right: 5px;
+    width: 103px;
   }
 }
 
@@ -27,7 +28,8 @@
     }
 
     &:nth-child(3) .user-name__name {
-      margin-right: 18px;
+      margin-right: 16px;
+      width: 117px;
     }
   }
 }
@@ -44,10 +46,6 @@
 
     &:nth-child(2) .user-name__name {
       margin-right: 19px;
-    }
-
-    &:nth-child(3) .user-name__name {
-      margin-right: 18px;
     }
 
     &:nth-child(3) .form-style {

@@ -3,25 +3,10 @@ body {
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
-  margin: 0 auto;
-  max-width: $desktop-width;
-  min-width: $mobile-width;
-  width: $mobile-width;
   min-height: 100%;
   display: flex;
+  margin: 0;
   flex-direction: column;
   color: #000000;
   background-color: #ffffff;
-}
-
-@media (min-width: $tablet-width) {
-  body {
-    width: $tablet-width;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  body {
-    width: $desktop-width;
-  }
 }

@@ -3,12 +3,12 @@
   width: 100%;
   z-index: 3;
 
-  .main-nav__toggle {
+  &__toggle {
     top: -46px;
     right: 21px;
   }
 
-  .main-nav__wrapper {
+  &__wrapper {
     background: #ffffff;
     position: absolute;
     width: 100%;
@@ -85,7 +85,7 @@
     max-width: 478px;
     margin-top: 6px;
 
-    .main-nav__wrapper {
+    &__wrapper {
       display: block;
       position: relative;
     }

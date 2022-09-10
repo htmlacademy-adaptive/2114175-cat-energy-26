@@ -1,10 +1,11 @@
 .user-contacts {
   display: flex;
   flex-direction: column;
-  padding: 0 20px 11px 20px;
+  margin-bottom: 11px;
 
   &__title {
     margin: 0;
+    margin-left: 20px;
     position: relative;
     margin-top: 27px;
     margin-bottom: 35px;
@@ -13,6 +14,7 @@
     line-height: 26px;
     background-color: #ffffff;
     font-weight: 400;
+    width: 280px;
 
     &::after {
       content: "";
@@ -28,19 +30,21 @@
 
 @media (min-width: $tablet-width) {
   .user-contacts {
-    padding: 0 66px 43px 69px;
+    margin-bottom: 44px;
 
     &__title {
-      margin-left: -1px;
-      margin-bottom: 76px;
+      margin-left: 0;
+      margin-bottom: 77px;
       font-size: 36px;
       line-height: 36px;
+      width: 699px;
+      padding-left: 69px;
 
       &::before {
         content: "";
         position: absolute;
         top: 22px;
-        left: -69px;
+        left: 0;
         height: 2px;
         width: 30px;
         background-color: #68b738;
@@ -48,7 +52,7 @@
 
       &::after {
         top: 22px;
-        right: -66px;
+        right: 0;
         width: 145px;
       }
     }
@@ -57,18 +61,20 @@
 
 @media (min-width: $desktop-width) {
   .user-contacts {
-    padding: 0 110px 67px 111px;
+    margin-bottom: 46px;
 
     &__title {
-      margin-left: -2px;
+      margin-left: 0;
+      min-width: 1330px;
+      padding-left: 110px;
 
       &::before {
-        left: -109px;
+        left: 0;
         width: 70px;
       }
 
       &::after {
-        right: -110px;
+        right: 0;
         width: 778px;
       }
     }

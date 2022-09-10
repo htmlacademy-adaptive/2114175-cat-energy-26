@@ -4,9 +4,11 @@
   align-items: center;
   width: 140px;
   height: 112px;
+  cursor: pointer;
 
   &__img {
     margin-top: 2px;
+    width: 100%;
   }
 }
 
