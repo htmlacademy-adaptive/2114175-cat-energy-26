@@ -8,9 +8,13 @@
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/apple.png">
+    <link rel="preload" href="/fonts/oswaldregular.woff2" type="font/woff2" as="font" crossorigin="anomymous">
+    <link rel="preload" href="/fonts/oswaldmedium.woff2" type="font/woff2" as="font" crossorigin="anomymous">
+    <link rel="preload" href="/fonts/oswaldregular.woff" type="font/woff" as="font" crossorigin="anomymous">
+    <link rel="preload" href="/fonts/oswaldmedium.woff" type="font/woff" as="font" crossorigin="anomymous">
   </head>
   <body class="page__body">
-    <header class="main-header main-header--bg">
+    <header class="main-header main-header--bg container">
       <div class="main-header__container logo-container">
         <a class="logo-container__logo logo" href="index.html">
           <picture>
@@ -51,10 +55,10 @@
         <div class="choice-container__promo choice-promo">
           <picture>
             <source type="image/webp" media="(min-width: 1440px)" srcset="img/index-can-desktop.webp 1x, img/index-can-desktop@2x.webp 2x" width="552" height="499">
-            <source type="image/webp" media="(min-width: 768px)" srcset="img/index-can-tablet.webp 1x, img/index-can-tablet@2x.webp 2x" width="709" height="609">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/index-can-tablet.webp 1x, img/index-can-tablet@2x.webp 2x" width="708" height="609">
             <source type="image/webp" srcset="img/index-can-mobile.webp 1x, img/index-can-mobile@2x.webp 2x" width="280" height="270">
             <source media="(min-width: 1440px)" srcset="img/index-can-desktop.png 1x, img/index-can-desktop@2x.png 2x" width="552" height="499">
-            <source media="(min-width: 768px)" srcset="img/index-can-tablet.png 1x, img/index-can-tablet@2x.png 2x" width="709" height="609">
+            <source media="(min-width: 768px)" srcset="img/index-can-tablet.png 1x, img/index-can-tablet@2x.png 2x" width="708" height="609">
             <img class="choice-promo__image" src="img/index-can-mobile.png" srcset="img/index-can-mobile.png 1x, img/index-can-mobile@2x.png 2x" width="280" height="270" alt="Кэт энерджи с курицей, 500 грамм.">
           </picture>
         </div>
@@ -64,7 +68,7 @@
 
     <main class="main-container">
       <h1 class="visually-hidden">Кэт Энерджи - сайт для продвинутых котов.</h1>
-      <section class="main-container__program-selection program-selection">
+      <section class="main-container__program-selection program-selection container">
         <div class="program-selection__container slim-container">
           <h2 class="visually-hidden">Подбор питания для котов</h2>
 
@@ -97,85 +101,91 @@
           </ul>
         </div>
 
-        <div class="program-selection advantage">
-          <h2 class="advantage__title">Как это работает</h2>
-          <ul class="advantage__list advantage-list">
-            <li class="advantage-list__item advantage-item">
-              <div class="advantage-item__wrapper advantage-image">
-                <img class="advantage-image__img advantage-item__image" src="img/leaflet.svg" width="30" height="32" alt="Свежий листочек.">
-              </div>
-              <p class="advantage-item__info">Функциональное питание содержит только полезные питательные вещества.</p>
-            </li>
+        <div class="program-selection container">
+          <div class="advantage">
+            <h2 class="advantage__title">Как это работает</h2>
+            <ul class="advantage__list advantage-list">
+              <li class="advantage-list__item advantage-item">
+                <div class="advantage-item__wrapper advantage-image">
+                  <img class="advantage-image__img advantage-item__image" src="img/leaflet.svg" width="30" height="32" alt="Свежий листочек.">
+                </div>
+                <p class="advantage-item__info">Функциональное питание содержит только полезные питательные вещества.</p>
+              </li>
 
-            <li class="advantage-list__item advantage-item">
-              <div class="advantage-item__wrapper advantage-image">
-                <img class="advantage-image__img advantage-item__image" src="img/powder.svg" width="28" height="31" alt="Порошок разведенный в стакане.">
-              </div>
-              <p class="advantage-item__info">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
-            </li>
+              <li class="advantage-list__item advantage-item">
+                <div class="advantage-item__wrapper advantage-image">
+                  <img class="advantage-image__img advantage-item__image" src="img/powder.svg" width="28" height="31" alt="Порошок разведенный в стакане.">
+                </div>
+                <p class="advantage-item__info">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
+              </li>
 
-            <li class="advantage-list__item advantage-item">
-              <div class="advantage-item__wrapper advantage-image">
-                <img class="advantage-image__img advantage-item__image" src="img/appliances.svg" width="25" height="30" alt="Столовые приборы.">
-              </div>
-              <p class="advantage-item__info">Замените один-два приема обычной еды на наше функциональное питание.</p>
-            </li>
+              <li class="advantage-list__item advantage-item">
+                <div class="advantage-item__wrapper advantage-image">
+                  <img class="advantage-image__img advantage-item__image" src="img/appliances.svg" width="25" height="30" alt="Столовые приборы.">
+                </div>
+                <p class="advantage-item__info">Замените один-два приема обычной еды на наше функциональное питание.</p>
+              </li>
 
-            <li class="advantage-list__item advantage-item">
-              <div class="advantage-item__wrapper advantage-image">
-                <img class="advantage-image__img advantage-item__image" src="img/watch.svg" width="25" height="29" alt="Заведенные часы.">
-              </div>
-              <p class="advantage-item__info">Уже через месяц наслаждайтесь изменениями к лучшему&#32;<br> вашего питомца!</p>
-            </li>
-          </ul>
+              <li class="advantage-list__item advantage-item">
+                <div class="advantage-item__wrapper advantage-image">
+                  <img class="advantage-image__img advantage-item__image" src="img/watch.svg" width="25" height="29" alt="Заведенные часы.">
+                </div>
+                <p class="advantage-item__info">Уже через месяц наслаждайтесь изменениями к лучшему&#32;<br> вашего питомца!</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
       <section class="main-container__promo promo">
-        <div class="promo__wrapper promo-wrapper">
-          <h2 class="promo-wrapper__title">Живой пример</h2>
-          <p class="promo-wrapper__info">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
+        <div class="promo__container promo-container">
+          <div class="promo-container__wrapper promo-wrapper">
+            <h2 class="promo-wrapper__title">Живой пример</h2>
+            <p class="promo-wrapper__info">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
 
-          <ul class="promo-wrapper__list promo-list">
-            <li class="promo-list__item promo-item">
-              <span class="promo-item__value promo-value">5 кг</span>
-              <span class="promo-item__label promo-label">снижение веса</span>
-            </li>
-            <li class="promo-list__item promo-item">
-              <span class="promo-item__value promo-value">60 дней</span>
-              <span class="promo-item__label promo-label">затрачено времени</span>
-            </li>
-          </ul>
+            <ul class="promo-wrapper__list promo-list">
+              <li class="promo-list__item promo-item">
+                <span class="promo-item__value promo-value">5 кг</span>
+                <span class="promo-item__label promo-label">снижение веса</span>
+              </li>
+              <li class="promo-list__item promo-item">
+                <span class="promo-item__value promo-value">60 дней</span>
+                <span class="promo-item__label promo-label">затрачено времени</span>
+              </li>
+            </ul>
 
-          <p class="promo-wrapper__price">Затраты на питание: <span class="">15 000 РУБ.</span></p>
-        </div>
+            <p class="promo-wrapper__price">Затраты на питание: <span class="">15 000 РУБ.</span></p>
+          </div>
 
-        <div class="promo__result-wrapper result-wrapper">
-          <div class="result-wrapper promo-result">
-            <div class="promo-result__list slider-list">
-              <div class="slider-list__fat-cat"></div>
-              <div class="slider-list__skynny-cat"></div>
-            </div>
+          <div class="promo-container__result-wrapper result-wrapper">
+            <div class="result-wrapper promo-result">
+              <div class="promo-result__list slider-list">
+                <div class="slider-list__fat-cat"></div>
+                <div class="slider-list__skynny-cat"></div>
+              </div>
 
-            <div class="promo-result__range range-scale">
-              <button type="button" class="range-scale__button range-button">
-                <span class="range-button__line-top"></span>
-                <svg class="range-button__icon" aria-label="Кнопка слайдера" width="24" height="18">
-                  <use xlink:href="img/sprite.svg#range-icon"></use>
-                </svg>
-                <span class="range-button__line-bottom"></span>
-              </button>
+              <div class="promo-result__range range-scale">
+                <button type="button" class="range-scale__button range-button">
+                  <span class="range-button__line-top"></span>
+                  <svg class="range-button__icon" aria-label="Кнопка слайдера" width="24" height="18">
+                    <use xlink:href="img/sprite.svg#range-icon"></use>
+                  </svg>
+                  <span class="range-button__line-bottom"></span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <div class="main-container__location location">
-        <div class="location__info adress-info">
-          <p class="adress-info__invitation">Приглашаем <br>к сотрудничеству дилеров!</p>
-          <p class="adress-info__address address">ул. Большая <br>Конюшенная, д. 19/8
-            <br><span class="address__city">Санкт-Петербург</span>
-          </p>
+        <div class="location__container container">
+          <div class="location__info adress-info">
+            <p class="adress-info__invitation">Приглашаем <br>к сотрудничеству дилеров!</p>
+            <p class="adress-info__address address">ул. Большая <br>Конюшенная, д. 19/8
+              <br><span class="address__city">Санкт-Петербург</span>
+            </p>
+          </div>
         </div>
         <div class="location__map map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003301!2d30.32085871630058!3d59.93871916905385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1662557272727!5m2!1sru!2sru" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -184,7 +194,7 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__wrapper">
+      <div class="footer__wrapper container">
         <a class="footer__logo footer-logo" href="index.html">
           <img class="footer-logo__img" src="img/logo-text.svg" width="128" height="24" alt="Переход на главную.">
         </a>

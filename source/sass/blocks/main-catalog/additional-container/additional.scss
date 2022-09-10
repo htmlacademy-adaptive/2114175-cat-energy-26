@@ -1,24 +1,26 @@
 .additional {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 25px 20px 37px;
 
   &__title {
-    position: relative;
     margin: 0;
     margin-left: -1px;
     padding: 0;
     font-size: 24px;
     line-height: 24px;
     font-weight: 400;
+    background-color: #ffffff;
+    width: 320px;
 
     &::after {
       content: "";
       position: absolute;
-      top: 15px;
-      right: -20px;
+      top: 40px;
+      right: 0;
       height: 2px;
-      width: 53px;
+      width: 16.5%;
       background-color: #68b738;
     }
   }
@@ -37,20 +39,21 @@
       font-size: 36px;
       line-height: 36px;
       margin-left: 0;
+      width: 340px;
 
       &::before {
         content: "";
         position: absolute;
         top: 21px;
-        left: -30px;
+        left: 0;
         height: 2px;
         width: 30px;
         background-color: #68b738;
       }
 
       &::after {
-        top: 20px;
-        right: -30px;
+        top: 21px;
+        right: 0;
         width: 327px;
       }
     }
@@ -70,13 +73,13 @@
 
       &::before {
         top: 23px;
-        left: -110px;
+        left: 0;
         width: 70px;
       }
 
       &::after {
         top: 23px;
-        right: -110px;
+        right: 0;
         width: 957px;
       }
     }

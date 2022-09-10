@@ -1,0 +1,26 @@
+.promo-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 20px 44px;
+  margin: 0 auto;
+  width: 280px;
+
+  &__wrapper {
+    margin-bottom: 17px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .promo-container {
+    justify-content: space-between;
+    width: 707px;
+    padding: 43px 31px 100px 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo-container {
+    width: 1222px;
+    padding: 0 108px 49px 110px;
+  }
+}

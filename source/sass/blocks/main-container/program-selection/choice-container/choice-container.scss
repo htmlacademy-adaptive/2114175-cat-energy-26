@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   min-height: 480px;
+  margin: 0 auto;
   position: relative;
 
   &__promo {
@@ -18,15 +19,15 @@
 
 @media (min-width: $tablet-width) {
   .choice-container {
-    padding: 62px 30px 0 87px;
+    padding: 61px 0 0;
     min-height: 810px;
-    min-width: 708px;
+    width: 534px;
 
     &__promo {
       position: absolute;
       margin: 0;
       top: 262px;
-      left: 0;
+      left: -88px;
     }
 
     &__button {
@@ -41,6 +42,7 @@
   .choice-container {
     padding: 62px 30px 0 80px;
     min-height: 516px;
+    width: 1110px;
 
     &__promo {
       top: 25px;

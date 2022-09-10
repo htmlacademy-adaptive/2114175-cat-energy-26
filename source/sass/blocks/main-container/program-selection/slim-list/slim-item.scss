@@ -13,6 +13,10 @@
     margin: 22px 0 19px 0;
   }
 
+  &:nth-child(2) .slim-link__wrapper {
+    margin-left: 18px;
+  }
+
   &:last-child {
     margin-bottom: 0;
   }
@@ -23,10 +27,18 @@
     flex-direction: column;
     position: relative;
     padding: 77px 62px 53px 52px;
-    margin-bottom: 30px;
+    margin-bottom: 31px;
 
     &__info {
       margin: 24px 0 51px;
+    }
+
+    &:nth-child(2) .slim-link__wrapper {
+      margin-left: 27px;
+    }
+
+    &:nth-child(2) .slim-image {
+      right: 60px;
     }
 
     &:last-child {
@@ -45,6 +57,14 @@
 
     &__info {
       margin: 41px 0 27px;
+    }
+
+    &:nth-child(2) .slim-link__wrapper {
+      margin-left: 28px;
+    }
+
+    &:nth-child(2) .slim-image {
+      right: 2px;
     }
   }
 }

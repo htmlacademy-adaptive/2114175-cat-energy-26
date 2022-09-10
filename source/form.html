@@ -8,9 +8,13 @@
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/apple.png">
+    <link rel="preload" href="/fonts/oswaldregular.woff2" type="font/woff2" as="font" crossorigin="anomymous">
+    <link rel="preload" href="/fonts/oswaldmedium.woff2" type="font/woff2" as="font" crossorigin="anomymous">
+    <link rel="preload" href="/fonts/oswaldregular.woff" type="font/woff" as="font" crossorigin="anomymous">
+    <link rel="preload" href="/fonts/oswaldmedium.woff" type="font/woff" as="font" crossorigin="anomymous">
   </head>
   <body class="page__body">
-    <header class="main-header">
+    <header class="main-header container main-header--catalog">
       <div class="main-header__container logo-container logo-container--form">
         <a class="logo-container__logo logo" href="index.html">
           <picture>
@@ -46,12 +50,12 @@
     </header>
 
     <main class="main-form">
-      <div class="main-form__wrapper form-wrapper">
+      <div class="main-form__wrapper form-wrapper container">
         <h1 class="form-wrapper__title main-title">Подбор программы</h1>
         <p class="form-wrapper__info main-info">Заполните анкету, и мы подберем <br>программу питания для вашего кота</p>
       </div>
       <form class="main-form__user form-user">
-        <div class="form-user__data user-data">
+        <div class="form-user__data user-data container">
           <div class="user-data__container name-weight-container">
             <div class="name-weight-container__name user-name">
               <label class="user-name__name appointment-style" for="appointment-name">Имя:*</label>
@@ -103,7 +107,7 @@
           </div>
         </div>
 
-        <div class="form-user__contacts user-contacts">
+        <div class="form-user__contacts user-contacts container">
           <h2 class="user-contacts__title">Контактные данные (владельца кота)</h2>
           <div class="user-contacts__container phone-email-container">
 
@@ -129,13 +133,13 @@
           </div>
         </div>
 
-        <div class="form-user__comment user-comment">
+        <div class="form-user__comment user-comment container">
           <h2 class="user-comment__title">Комментарий</h2>
           <label class="visually-hidden" for="comment">Введите в поле текст</label>
           <textarea class="user-comment__textarea" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
         </div>
 
-        <div class="form-user__additionally user-additionally">
+        <div class="form-user__additionally user-additionally container">
           <h2 class="user-additionally__title">Дополнительно</h2>
           <div class="user-additionally__checkbox filter-checkbox">
             <h3 class="visually-hidden">Выбрать желаемые продукты для программы</h3>
@@ -173,27 +177,28 @@
           </div>
         </div>
 
-        <div class="form-user__container button-container">
+        <div class="form-user__container button-container container">
           <button class="button-container__button button form-button">Отправить заявку</button>
           <p class="button-container__info">* — Обязательные поля</p>
         </div>
       </form>
 
       <div class="main-form__location location location--colored">
-        <div class="location__info adress-info">
-          <p class="adress-info__invitation">Приглашаем <br>к сотрудничеству дилеров!</p>
-          <p class="adress-info__address address">ул. Большая <br>Конюшенная, д. 19/8
-            <br><span class="address__city">Санкт-Петербург</span>
-          </p>
+        <div class="location__container container">
+          <div class="location__info adress-info">
+            <p class="adress-info__invitation">Приглашаем <br>к сотрудничеству дилеров!</p>
+            <p class="adress-info__address address">ул. Большая <br>Конюшенная, д. 19/8
+              <br><span class="address__city">Санкт-Петербург</span>
+            </p>
+          </div>
         </div>
         <div class="location__map map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003301!2d30.32085871630058!3d59.93871916905385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1662557272727!5m2!1sru!2sru" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-      </div>
     </main>
 
     <footer class="footer">
-      <div class="footer__wrapper">
+      <div class="footer__wrapper container">
         <a class="footer__logo footer-logo" href="index.html">
           <img class="footer-logo__img" src="img/logo-text.svg" width="128" height="24" alt="Переход на главную.">
         </a>
