@@ -6,7 +6,7 @@
 
   @media (min-resolution: 2dppx) {
     background: url("../img/map-mobile@2x.jpg") no-repeat;
-    background-size: 320px auto;
+    background-size: 100% auto;
   }
 
   iframe {
@@ -24,11 +24,12 @@
 
     @media (min-resolution: 2dppx) {
       background: url("../img/map-tablet@2x.jpg") no-repeat;
-      background-size: 768px auto;
+      background-size: 100% auto;
     }
 
     iframe {
       height: 400px;
+      width: 100%;
     }
   }
 }
@@ -39,7 +40,7 @@
 
     @media (min-resolution: 2dppx) {
       background: url("../img/map-desktop@2x.jpg") no-repeat;
-      background-size: 1440px auto;
+      background-size: 100% auto;
     }
   }
 }

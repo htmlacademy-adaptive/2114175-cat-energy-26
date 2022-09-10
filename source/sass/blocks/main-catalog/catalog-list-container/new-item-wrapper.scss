@@ -10,6 +10,10 @@
   .new-item-wrapper {
     text-align: center;
 
+    &__img {
+      width: 60px;
+    }
+
     &__info {
       margin-top: 46px;
     }

@@ -19,7 +19,8 @@
   .user-data {
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 112px 42px 111px;
+    padding: 0 112px 42px;
+    width: 1216px;
 
     &__container .user-name {
       padding: 0;
