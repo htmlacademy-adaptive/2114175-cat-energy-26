@@ -14,48 +14,50 @@
     <link rel="preload" href="/fonts/oswaldmedium.woff" type="font/woff" as="font" crossorigin="anomymous">
   </head>
   <body class="page__body">
-    <header class="main-header container main-header--catalog">
-      <div class="main-header__container logo-container logo-container--form">
-        <a class="logo-container__logo logo" href="index.html">
-          <picture>
-            <source media="(min-width: 1440px)" srcset="img/logo-desktop.svg" width="202" height="59">
-            <source media="(min-width: 768px)" srcset="img/logo-tablet.svg" width="174" height="52">
-            <img class="logo__image" src="img/logo-mobile.svg" width="33" height="37" alt="Логотип кота.">
-          </picture>
-        </a>
+    <header class="main-header main-header--catalog">
+      <div class="main-header__container-size">
+        <div class="main-header__container logo-container logo-container--form">
+          <a class="logo-container__logo logo" href="index.html">
+            <picture>
+              <source media="(min-width: 1440px)" srcset="img/logo-desktop.svg" width="202" height="59">
+              <source media="(min-width: 768px)" srcset="img/logo-tablet.svg" width="174" height="52">
+              <img class="logo__image" src="img/logo-mobile.svg" width="33" height="37" alt="Логотип кота.">
+            </picture>
+          </a>
 
-        <a class="logo-container__logo-text logo-text" href="index.html">
-          <img class="logo-text__image" src="img/logo-text.svg" width="101" height="18" alt="Кэт энерджи.">
-        </a>
-      </div>
-
-      <nav class="main-header__nav main-nav main-nav--form main-nav--closed main-nav--nojs">
-        <button class="main-nav__toggle nav-toggle" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list nav-list">
-            <li class="nav-list__item nav-item">
-              <a class="nav-item__link nav-link" href="index.html">Главная</a>
-            </li>
-            <li class="nav-list__item nav-item">
-              <a class="nav-item__link nav-link" href="catalog.html">Каталог продукции</a>
-            </li>
-            <li class="nav-list__item nav-item nav-item--current-catalog">
-              <a class="nav-item__link nav-link">Подбор программы</a>
-            </li>
-          </ul>
+          <a class="logo-container__logo-text logo-text" href="index.html">
+            <img class="logo-text__image" src="img/logo-text.svg" width="101" height="18" alt="Кэт энерджи.">
+          </a>
         </div>
-      </nav>
+
+        <nav class="main-header__nav main-nav main-nav--form main-nav--closed main-nav--nojs">
+          <button class="main-nav__toggle nav-toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list nav-list">
+              <li class="nav-list__item nav-item">
+                <a class="nav-item__link nav-link" href="index.html">Главная</a>
+              </li>
+              <li class="nav-list__item nav-item">
+                <a class="nav-item__link nav-link" href="catalog.html">Каталог продукции</a>
+              </li>
+              <li class="nav-list__item nav-item nav-item--current-catalog">
+                <a class="nav-item__link nav-link">Подбор программы</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <main class="main-form">
       <div class="main-form__wrapper form-wrapper container">
         <h1 class="form-wrapper__title main-title">Подбор программы</h1>
-        <p class="form-wrapper__info main-info">Заполните анкету, и мы подберем <br>программу питания для вашего кота</p>
+        <p class="form-wrapper__info main-info">Заполните анкету, и мы подберем<br>программу питания для вашего кота</p>
       </div>
       <form class="main-form__user form-user">
-        <div class="form-user__data user-data container">
+        <div class="form-user__data user-data">
           <div class="user-data__container name-weight-container">
             <div class="name-weight-container__name user-name">
               <label class="user-name__name appointment-style" for="appointment-name">Имя:*</label>
@@ -107,8 +109,10 @@
           </div>
         </div>
 
-        <div class="form-user__contacts user-contacts container">
-          <h2 class="user-contacts__title">Контактные данные (владельца кота)</h2>
+        <div class="form-user__contacts user-contacts">
+          <div class="user-contacts__head">
+            <h2 class="user-contacts__title"><span>Контактные данные&#32;<br>(владельца кота)</span></h2>
+          </div>
           <div class="user-contacts__container phone-email-container">
 
             <div class="phone-email-container__email user-email">
@@ -133,14 +137,20 @@
           </div>
         </div>
 
-        <div class="form-user__comment user-comment container">
-          <h2 class="user-comment__title">Комментарий</h2>
+        <div class="form-user__comment user-comment">
+          <div class="user-comment__head">
+            <h2 class="user-comment__title"><span>Комментарий</span></h2>
+          </div>
           <label class="visually-hidden" for="comment">Введите в поле текст</label>
-          <textarea class="user-comment__textarea" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
+          <div class="container">
+            <textarea class="user-comment__textarea" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
+          </div>
         </div>
 
-        <div class="form-user__additionally user-additionally container">
-          <h2 class="user-additionally__title">Дополнительно</h2>
+        <div class="form-user__additionally user-additionally">
+          <div class="user-additionally__head">
+            <h2 class="user-additionally__title"><span>Дополнительно</span></h2>
+          </div>
           <div class="user-additionally__checkbox filter-checkbox">
             <h3 class="visually-hidden">Выбрать желаемые продукты для программы</h3>
             <ul class="filter-checkbox__list checkbox-list">

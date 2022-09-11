@@ -1,21 +1,21 @@
 .additional-list {
   margin: 0;
-  margin-top: 35px;
-  padding: 0;
+  margin-top: 0;
+  padding: 0 20px;
   list-style-type: none;
 }
 
 @media (min-width: $tablet-width) {
   .additional-list {
     max-width: 708px;
-    margin: 0;
-    margin-top: 79px;
+    margin: 79px auto 0;
   }
 }
 
 @media (min-width: $desktop-width) {
   .additional-list {
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
     min-width: 894px;
     max-width: 894px;
   }

@@ -13,7 +13,7 @@
     margin: 22px 0 19px 0;
   }
 
-  &:nth-child(2) .slim-link__wrapper {
+  &:nth-child(2) .slim-item__wrapper {
     margin-left: 18px;
   }
 
@@ -33,11 +33,11 @@
       margin: 24px 0 51px;
     }
 
-    &:nth-child(2) .slim-link__wrapper {
+    &:nth-child(2) .slim-item__wrapper {
       margin-left: 27px;
     }
 
-    &:nth-child(2) .slim-image {
+    &:nth-child(2) .slim-item__image {
       right: 60px;
     }
 
@@ -59,11 +59,11 @@
       margin: 41px 0 27px;
     }
 
-    &:nth-child(2) .slim-link__wrapper {
+    &:nth-child(2) .slim-item__wrapper {
       margin-left: 28px;
     }
 
-    &:nth-child(2) .slim-image {
+    &:nth-child(2) .slim-item__image {
       right: 2px;
     }
   }

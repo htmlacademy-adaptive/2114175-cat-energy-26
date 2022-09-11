@@ -3,7 +3,7 @@
   flex-direction: column;
 
   &__container .user-name {
-    padding: 0 20px;
+    padding: 0 20px 14px;
   }
 }
 
@@ -21,6 +21,7 @@
     justify-content: space-between;
     padding: 0 112px 42px;
     width: 1216px;
+    margin: 0 auto;
 
     &__container .user-name {
       padding: 0;

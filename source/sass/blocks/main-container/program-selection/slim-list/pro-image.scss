@@ -2,10 +2,12 @@
   position: absolute;
   bottom: 11px;
   left: -9px;
+  max-width: 67px;
 }
 
 @media (min-width: $tablet-width) {
   .pro-image {
+    max-width: 268px;
     width: 268px;
     height: 112px;
     bottom: 44px;
@@ -15,6 +17,7 @@
 
 @media (min-width: $desktop-width) {
   .pro-image {
+    max-width: 134px;
     width: 134px;
     height: 56px;
     bottom: 24px;

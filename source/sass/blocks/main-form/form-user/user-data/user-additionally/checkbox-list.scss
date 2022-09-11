@@ -1,9 +1,10 @@
 .checkbox-list {
   display: grid;
   row-gap: 12px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   list-style-type: none;
+  width: 280px;
 }
 
 @media (min-width: $tablet-width) {
@@ -11,6 +12,7 @@
     grid-template-columns: 221px 221px;
     row-gap: 32px;
     column-gap: 123px;
+    width: 629px;
   }
 }
 
@@ -19,5 +21,6 @@
     grid-template-columns: 221px 221px 221px 221px;
     row-gap: 10px;
     column-gap: 104px;
+    width: 1220px;
   }
 }
