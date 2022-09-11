@@ -1,5 +1,7 @@
 .advantage {
   padding: 20px 20px 49px;
+  width: 280px;
+  margin: 0 auto;
 
   &__title {
     margin: 0;
@@ -14,8 +16,8 @@
 
 @media (min-width: $tablet-width) {
   .advantage {
-    padding: 0 109px 8px 30px;
-    border-bottom: 1px solid #e6e6e6;
+    padding: 0 109px 9px 30px;
+    width: 629px;
 
     &__title {
       font-size: 60px;
@@ -29,7 +31,7 @@
 @media (min-width: $desktop-width) {
   .advantage {
     padding: 0 106px 69px 110px;
-    border: none;
+    width: 1224px;
 
     &__title {
       font-size: 60px;
