@@ -1,23 +1,38 @@
 .user-comment {
   padding: 0 0 21px;
 
-  &__title {
-    margin: 0;
-    margin-left: 20px;
+  &__head {
     position: relative;
-    margin-bottom: 37px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 15px;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background-color: #68b738;
+    }
+  }
+
+  &__title {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 9px;
+    margin-bottom: 38px;
+    font-family: inherit;
     font-size: 24px;
     line-height: 26px;
     font-weight: 400;
+    width: 280px;
 
-    &::after {
-      content: "";
-      position: absolute;
-      top: 14px;
-      right: 0;
-      height: 2px;
-      width: 158px;
-      background-color: #68b738;
+    span {
+      display: inline-block;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-left: -20px;
+      background-color: #ffffff;
+      z-index: 1;
     }
   }
 
@@ -46,27 +61,23 @@
   .user-comment {
     padding: 0 0 62px;
 
+    &__head {
+      &::before {
+        top: 22px;
+      }
+    }
+
     &__title {
-      margin-left: 0;
-      margin-bottom: 76px;
+      margin: 9px auto 77px;
       font-size: 36px;
       line-height: 36px;
+      width: 699px;
       padding-left: 69px;
 
-      &::before {
-        content: "";
-        position: absolute;
-        top: 22px;
-        left: 0;
-        height: 2px;
-        width: 30px;
-        background-color: #68b738;
-      }
-
-      &::after {
-        top: 22px;
-        right: 0;
-        width: 478px;
+      span {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: -40px;
       }
     }
 
@@ -83,19 +94,21 @@
 
 @media (min-width: $desktop-width) {
   .user-comment {
-    padding: 0 0 64px;
+    padding: 0 0 62px;
+
+    &__head {
+      &::before {
+        top: 22px;
+      }
+    }
 
     &__title {
+      margin: 15px auto 77px;
+      width: 1330px;
       padding-left: 110px;
 
-      &::before {
-        left: 0;
-        width: 70px;
-      }
-
-      &::after {
-        right: 0;
-        width: 1108px;
+      span {
+        padding-right: 42px;
       }
     }
 

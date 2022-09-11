@@ -7,7 +7,8 @@
 
 @media (min-width: $tablet-width) {
   .catalog-list {
-    padding: 0 30px 68px;
+    margin: 0 auto;
+    width: 708px;
     grid-template-columns: 324px 324px;
     row-gap: 67px;
     column-gap: 60px;
@@ -20,7 +21,7 @@
 
 @media (min-width: $desktop-width) {
   .catalog-list {
-    padding: 0 110px 75px;
+    width: 1220px;
     grid-template-columns: 245px 245px 245px 245px;
     row-gap: 63px;
     column-gap: 80px;

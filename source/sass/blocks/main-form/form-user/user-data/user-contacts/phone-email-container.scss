@@ -1,14 +1,18 @@
 .phone-email-container {
   display: flex;
   flex-direction: column;
+  width: 280px;
+  margin: 0 auto;
 
   &__email {
-    margin: 0 20px 14px;
+    margin: 0 0 15px;
   }
 }
 
 @media (min-width: $tablet-width) {
   .phone-email-container {
+    width: 768px;
+
     &__email {
       margin: -1px 67px 21px 71px;
     }
@@ -23,9 +27,14 @@
   .phone-email-container {
     flex-direction: row;
     justify-content: left;
+    width: 1220px;
 
     &__email {
-      margin: -1px 10px 21px 111px;
+      margin: 0 0 0 1px;
+    }
+
+    .user-email:nth-child(2) {
+      margin-left: 78px;
     }
   }
 }

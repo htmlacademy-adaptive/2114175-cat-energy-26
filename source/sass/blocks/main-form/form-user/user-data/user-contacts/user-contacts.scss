@@ -1,29 +1,39 @@
 .user-contacts {
   display: flex;
   flex-direction: column;
-  margin-bottom: 11px;
+
+  &__head {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 42px;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background-color: #68b738;
+    }
+  }
 
   &__title {
-    margin: 0;
-    margin-left: 20px;
+    margin: 0 auto;
     position: relative;
     margin-top: 27px;
-    margin-bottom: 35px;
+    margin-bottom: 34px;
     font-family: inherit;
     font-size: 24px;
     line-height: 26px;
-    background-color: #ffffff;
     font-weight: 400;
     width: 280px;
 
-    &::after {
-      content: "";
-      position: absolute;
-      top: 15px;
-      right: -20px;
-      height: 2px;
-      width: 99px;
-      background-color: #68b738;
+    span {
+      display: inline-block;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-left: -20px;
+      background-color: #ffffff;
+      z-index: 1;
     }
   }
 }
@@ -32,28 +42,27 @@
   .user-contacts {
     margin-bottom: 44px;
 
+    &__head {
+      &::before {
+        top: 50px;
+      }
+    }
+
     &__title {
-      margin-left: 0;
-      margin-bottom: 77px;
+      margin: 28px auto 77px;
       font-size: 36px;
       line-height: 36px;
       width: 699px;
       padding-left: 69px;
 
-      &::before {
-        content: "";
-        position: absolute;
-        top: 22px;
-        left: 0;
-        height: 2px;
-        width: 30px;
-        background-color: #68b738;
+      span {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: -40px;
       }
 
-      &::after {
-        top: 22px;
-        right: 0;
-        width: 145px;
+      span br {
+        display: none;
       }
     }
   }
@@ -61,22 +70,18 @@
 
 @media (min-width: $desktop-width) {
   .user-contacts {
-    margin-bottom: 46px;
+    margin-bottom: 68px;
+
+    &__head {
+      &::before {
+        top: 50px;
+      }
+    }
 
     &__title {
-      margin-left: 0;
-      min-width: 1330px;
+      margin: 28px auto 75px;
+      width: 1330px;
       padding-left: 110px;
-
-      &::before {
-        left: 0;
-        width: 70px;
-      }
-
-      &::after {
-        right: 0;
-        width: 778px;
-      }
     }
   }
 }
