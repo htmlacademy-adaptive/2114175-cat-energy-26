@@ -14,13 +14,36 @@
     margin-left: 1px;
   }
 
-  &:hover .checkbox-mark {
+  &:hover .checkbox-title__mark {
     border-color: #bababa;
+  }
+
+  .checkbox-title__input:checked + .checkbox-title__mark {
+    background-image: url("../img/checkboxbutton.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 18px 14px;
+  }
+
+  .checkbox-title__input:focus + .checkbox-title__mark {
+    border-color: #bababa;
+  }
+
+  .checkbox-title__input:disabled + .checkbox-title__mark {
+    opacity: 30%;
+  }
+
+  .checkbox-title__input:disabled + .checkbox-title__mark + .checkbox-title__name {
+    opacity: 30%;
   }
 }
 
 @media (min-width: $tablet-width) {
   .checkbox-title {
+    .checkbox-title__input:checked + .checkbox-title__mark {
+      background-size: 24px 19px;
+    }
+
     &__mark {
       margin-right: 19px;
     }
