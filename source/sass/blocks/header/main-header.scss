@@ -4,21 +4,12 @@
   justify-content: space-between;
   align-items: center;
   font: inherit;
-  width: 320px;
+  width: 100%;
+  margin: 0 auto;
 
   &--catalog {
     border-bottom: 1px solid #ebebeb;
     width: 100%;
-    margin: 0 auto;
-  }
-
-  &__container-size {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    font: inherit;
-    width: 320px;
     margin: 0 auto;
   }
 
@@ -57,12 +48,6 @@
       border-bottom: none;
     }
 
-    &__container-size {
-      flex-direction: row;
-      align-items: none;
-      width: 708px;
-    }
-
     &--bg {
       &::before,
       &::after {
@@ -77,11 +62,6 @@
     min-width: 1220px;
     max-width: 1220px;
     padding: 54px 110px 0;
-
-    &__container-size {
-      min-width: 1220px;
-      max-width: 1220px;
-    }
 
     &--bg {
       &::before,

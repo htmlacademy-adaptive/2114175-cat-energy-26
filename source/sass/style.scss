@@ -11,9 +11,9 @@
 @import "./blocks/header/logo-container/logo.scss";
 @import "./blocks/header/main-nav/main-nav.scss";
 @import "./blocks/header/main-nav/nav-list.scss";
-@import "./blocks/header/main-nav/nav-toggle";
 @import "./blocks/header/main-nav/nav-item";
 @import "./blocks/header/main-nav/nav-link.scss";
+@import "./blocks/header/main-nav/nav-toggle.scss";
 @import "./blocks/location/location.scss";
 @import "./blocks/location/adress-info.scss";
 @import "./blocks/location/address.scss";
@@ -90,7 +90,6 @@
 @import "./blocks/main-form/form-user/user-data/filter-radiobox/filter-item.scss";
 @import "./blocks/main-form/form-user/user-data/filter-radiobox/filter-title.scss";
 @import "./blocks/main-form/form-user/user-data/filter-radiobox/control-mark.scss";
-@import "./blocks/main-form/form-user/user-data/filter-radiobox/control-input.scss";
 @import "./blocks/main-form/form-user/user-data/user-contacts/user-contacts.scss";
 @import "./blocks/main-form/form-user/user-data/user-contacts/user-email.scss";
 @import "./blocks/main-form/form-user/user-data/user-contacts/phone-email-container.scss";
@@ -105,6 +104,5 @@
 @import "./blocks/main-form/form-user/user-data/user-additionally/checkbox-item.scss";
 @import "./blocks/main-form/form-user/user-data/user-additionally/checkbox-title.scss";
 @import "./blocks/main-form/form-user/user-data/user-additionally/checkbox-mark.scss";
-@import "./blocks/main-form/form-user/user-data/user-additionally/checkbox-input.scss";
 @import "./blocks/main-form/form-user/user-data/button-container/button-container.scss";
 @import "./blocks/main-form/form-user/user-data/button-container/form-button.scss";
