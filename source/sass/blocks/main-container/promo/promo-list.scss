@@ -8,7 +8,7 @@
   padding: 0;
   list-style-type: none;
 
-  .promo-item:nth-child(2) .promo-label {
+  .promo-list__item:nth-child(2) .promo-list__promo-label {
     padding: 0 14px;
     margin-left: -14px;
   }
@@ -21,7 +21,7 @@
     margin-top: 69px;
     margin-bottom: 80px;
 
-    .promo-item:nth-child(2) .promo-label {
+    .promo-list__item:nth-child(2) .promo-list__promo-label {
       padding: 0;
     }
   }

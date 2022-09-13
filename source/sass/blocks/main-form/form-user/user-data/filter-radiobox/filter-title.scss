@@ -13,8 +13,27 @@
     margin-top: 0;
   }
 
-  &:hover .control-mark {
+  &:hover .filter-title__mark {
     border-color: #bababa;
+  }
+
+  .filter-title__input:checked + .filter-title__mark {
+    background-image: url("../img/radiobutton.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 15px 15px;
+  }
+
+  .filter-title__input:focus + .filter-title__mark {
+    border-color: #bababa;
+  }
+
+  .filter-title__input:disabled + .filter-title__mark {
+    opacity: 30%;
+  }
+
+  .filter-title__input:disabled + .filter-title__mark + .filter-title__name {
+    opacity: 30%;
   }
 }
 
@@ -22,6 +41,10 @@
   .filter-title {
     display: flex;
     align-items: center;
+
+    .filter-title__input:checked + .filter-title__mark {
+      background-size: 19px 19px;
+    }
 
     &__mark {
       margin-right: 20px;

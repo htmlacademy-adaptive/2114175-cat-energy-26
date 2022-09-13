@@ -15,40 +15,38 @@
   </head>
   <body class="page__body">
     <header class="main-header main-header--catalog">
-      <div class="main-header__container-size">
-        <div class="main-header__container logo-container">
-          <a class="logo-container__logo logo" href="index.html">
-            <picture>
-              <source media="(min-width: 1440px)" srcset="img/logo-desktop.svg" width="202" height="59">
-              <source media="(min-width: 768px)" srcset="img/logo-tablet.svg" width="174" height="52">
-              <img class="logo__image" src="img/logo-mobile.svg" width="33" height="37" alt="Логотип кота.">
-            </picture>
-          </a>
+      <div class="main-header__container logo-container">
+        <a class="logo-container__logo logo" href="index.html">
+          <picture>
+            <source media="(min-width: 1440px)" srcset="img/logo-desktop.svg" width="202" height="59">
+            <source media="(min-width: 768px)" srcset="img/logo-tablet.svg" width="174" height="52">
+            <img class="logo__image" src="img/logo-mobile.svg" width="33" height="37" alt="Логотип кота.">
+          </picture>
+        </a>
 
-          <a class="logo-container__logo-text logo-text" href="index.html">
-            <img class="logo-text__image" src="img/logo-text.svg" width="101" height="18" alt="Кэт энерджи.">
-          </a>
-        </div>
-
-        <nav class="main-header__nav main-nav main-nav--catalog main-nav--closed main-nav--nojs">
-          <button class="main-nav__toggle nav-toggle" type="button">
-            <span class="visually-hidden">Открыть меню</span>
-          </button>
-          <div class="main-nav__wrapper">
-            <ul class="main-nav__list nav-list">
-              <li class="nav-list__item nav-item">
-                <a class="nav-item__link nav-link" href="index.html">Главная</a>
-              </li>
-              <li class="nav-list__item nav-item nav-item--current-catalog">
-                <a class="nav-item__link nav-link">Каталог продукции</a>
-              </li>
-              <li class="nav-list__item nav-item">
-                <a class="nav-item__link nav-link" href="form.html">Подбор программы</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        <a class="logo-container__logo-text logo-text" href="index.html">
+          <img class="logo-text__image" src="img/logo-text.svg" width="101" height="18" alt="Кэт энерджи.">
+        </a>
       </div>
+
+      <nav class="main-header__nav main-nav main-nav--catalog main-nav--closed main-nav--nojs">
+        <button class="main-nav__toggle nav-toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list nav-list">
+            <li class="nav-list__item main-nav__item nav-item">
+              <a class="nav-item__link nav-link" href="index.html">Главная</a>
+            </li>
+            <li class="nav-list__item main-nav__item nav-item nav-item--current-catalog">
+              <a class="nav-item__link nav-link">Каталог продукции</a>
+            </li>
+            <li class="nav-list__item main-nav__item nav-item">
+              <a class="nav-item__link nav-link" href="form.html">Подбор программы</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main class="main-catalog">
@@ -66,25 +64,25 @@
                   <source type="image/webp" media="(min-width: 768px)" srcset="img/chicken-500-tablet.webp 1x, img/chicken-500-tablet@2x.webp 2x" width="161" height="172">
                   <source type="image/webp" srcset="img/chicken-500.webp 1x, img/chicken-500@2x.webp 2x" width="68" height="86">
                   <source media="(min-width: 768px)" srcset="img/chicken-500-tablet.png 1x, img/chicken-500-tablet@2x.png 2x" width="161" height="172">
-                  <img class="card-img__img" src="img/chicken-500.png" srcset="img/chicken-500.png 1x, img/chicken-500@2x.png 2x" width="68" height="86" alt="Куриный вкус 500 грамм.">
+                  <img class="card-img__img catalog-item__img" src="img/chicken-500.png" srcset="img/chicken-500.png 1x, img/chicken-500@2x.png 2x" width="68" height="86" alt="Куриный вкус 500 грамм.">
                 </picture>
               </a>
-              <div class="item-wrapper__title title-wrapper">
+              <div class="item-wrapper__title catalog-item__title-wrapper title-wrapper">
                 <a class="title-wrapper__title info-title" href="product.html">
                   <p class="info-title__title">Cat Energy PRO <span>500 г</span></p>
                 </a>
                 <ul class="title-wrapper__list info-list">
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Масса</p>
-                    <p class="info-item__definition">500 г</p>
+                    <p class="info-item__definition catalog-item__definition">500 г</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Вкус</p>
-                    <p class="info-item__definition">Курица</p>
+                    <p class="info-item__definition catalog-item__definition">Курица</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Цена</p>
-                    <p class="info-item__definition">700 р.</p>
+                    <p class="info-item__definition catalog-item__definition">700 р.</p>
                   </li>
                 </ul>
               </div>
@@ -101,25 +99,25 @@
                   <source type="image/webp" srcset="img/chicken-1000.webp 1x, img/chicken-1000@2x.webp 2x" width="84" height="101">
                   <source media="(min-width: 1440px)" srcset="img/chicken-1000-desktop.png 1x, img/chicken-1000-desktop@2x.png 2x" width="172" height="202">
                   <source media="(min-width: 768px)" srcset="img/chicken-1000-tablet.png 1x, img/chicken-1000-tablet@2x.png 2x" width="168" height="207">
-                  <img class="card-img__img" src="img/chicken-1000.png" srcset="img/chicken-1000.png 1x, img/chicken-1000@2x.png 2x" width="84" height="101" alt="Куриный вкус 500 грамм.">
+                  <img class="card-img__img catalog-item__img" src="img/chicken-1000.png" srcset="img/chicken-1000.png 1x, img/chicken-1000@2x.png 2x" width="84" height="101" alt="Куриный вкус 500 грамм.">
                 </picture>
               </a>
-              <div class="item-wrapper__title title-wrapper">
+              <div class="item-wrapper__title catalog-item__title-wrapper title-wrapper">
                 <a class="title-wrapper__title info-title" href="product.html">
                   <p class="info-title__title">Cat Energy PRO <span>1000 г</span></p>
                 </a>
                 <ul class="title-wrapper__list info-list">
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Масса</p>
-                    <p class="info-item__definition">1000 г</p>
+                    <p class="info-item__definition catalog-item__definition">1000 г</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Вкус</p>
-                    <p class="info-item__definition">Курица</p>
+                    <p class="info-item__definition catalog-item__definition">Курица</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Цена</p>
-                    <p class="info-item__definition">1000 р.</p>
+                    <p class="info-item__definition catalog-item__definition">1000 р.</p>
                   </li>
                 </ul>
               </div>
@@ -134,25 +132,25 @@
                   <source type="image/webp" media="(min-width: 768px)" srcset="img/fish-500-tablet.webp 1x, img/fish-500-tablet@2x.webp 2x" width="163" height="174">
                   <source type="image/webp" srcset="img/fish-500.webp 1x, img/fish-500@2x.webp 2x" width="68" height="78">
                   <source media="(min-width: 768px)" srcset="img/fish-500-tablet.png 1x, img/fish-500-tablet@2x.png 2x" width="163" height="174">
-                  <img class="card-img__img" src="img/fish-500.png" srcset="img/fish-500.png 1x, img/fish-500@2x.png 2x" width="68" height="78" alt="Куриный вкус 500 грамм.">
+                  <img class="card-img__img catalog-item__img" src="img/fish-500.png" srcset="img/fish-500.png 1x, img/fish-500@2x.png 2x" width="68" height="78" alt="Куриный вкус 500 грамм.">
                 </picture>
               </a>
-              <div class="item-wrapper__title title-wrapper">
+              <div class="item-wrapper__title catalog-item__title-wrapper title-wrapper">
                 <a class="title-wrapper__title info-title" href="product.html">
                   <p class="info-title__title">Cat Energy PRO <span>500 г</span></p>
                 </a>
                 <ul class="title-wrapper__list info-list">
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Масса</p>
-                    <p class="info-item__definition">500 г</p>
+                    <p class="info-item__definition catalog-item__definition">500 г</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Вкус</p>
-                    <p class="info-item__definition">Рыба</p>
+                    <p class="info-item__definition catalog-item__definition">Рыба</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Цена</p>
-                    <p class="info-item__definition">700 р.</p>
+                    <p class="info-item__definition catalog-item__definition">700 р.</p>
                   </li>
                 </ul>
               </div>
@@ -169,25 +167,25 @@
                   <source type="image/webp" srcset="img/fish-1000.webp 1x, img/fish-1000@2x.webp 2x" width="84" height="101">
                   <source media="(min-width: 1440px)" srcset="img/fish-1000-desktop.png 1x, img/fish-1000-desktop@2x.png 2x" width="172" height="196">
                   <source media="(min-width: 768px)" srcset="img/fish-1000-tablet.png 1x, img/fish-1000-tablet@2x.png 2x" width="168" height="200">
-                  <img class="card-img__img" src="img/fish-1000.png" srcset="img/fish-1000.png 1x, img/fish-1000@2x.png 2x" width="84" height="101" alt="Куриный вкус 500 грамм.">
+                  <img class="card-img__img catalog-item__img" src="img/fish-1000.png" srcset="img/fish-1000.png 1x, img/fish-1000@2x.png 2x" width="84" height="101" alt="Куриный вкус 500 грамм.">
                 </picture>
               </a>
-              <div class="item-wrapper__title title-wrapper">
+              <div class="item-wrapper__title catalog-item__title-wrapper title-wrapper">
                 <a class="title-wrapper__title info-title" href="product.html">
                   <p class="info-title__title">Cat Energy PRO <span>1000 г</span></p>
                 </a>
                 <ul class="title-wrapper__list info-list">
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Масса</p>
-                    <p class="info-item__definition">1000 г</p>
+                    <p class="info-item__definition catalog-item__definition">1000 г</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Вкус</p>
-                    <p class="info-item__definition">Рыба</p>
+                    <p class="info-item__definition catalog-item__definition">Рыба</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Цена</p>
-                    <p class="info-item__definition">1000 р.</p>
+                    <p class="info-item__definition catalog-item__definition">1000 р.</p>
                   </li>
                 </ul>
               </div>
@@ -202,25 +200,25 @@
                   <source type="image/webp" media="(min-width: 768px)" srcset="img/buckwheat-500-tablet.webp 1x, img/buckwheat-500-tablet@2x.webp 2x" width="161" height="171">
                   <source type="image/webp" srcset="img/buckwheat-500.webp 1x, img/buckwheat-500@2x.webp 2x" width="68" height="78">
                   <source media="(min-width: 768px)" srcset="img/buckwheat-500-tablet.png 1x, img/buckwheat-500-tablet@2x.png 2x" width="161" height="171">
-                  <img class="card-img__img" src="img/buckwheat-500.png" srcset="img/buckwheat-500.png 1x, img/buckwheat-500@2x.png 2x" width="68" height="78" alt="Куриный вкус 500 грамм.">
+                  <img class="card-img__img catalog-item__img" src="img/buckwheat-500.png" srcset="img/buckwheat-500.png 1x, img/buckwheat-500@2x.png 2x" width="68" height="78" alt="Куриный вкус 500 грамм.">
                 </picture>
               </a>
-              <div class="item-wrapper__title title-wrapper">
+              <div class="item-wrapper__title catalog-item__title-wrapper title-wrapper">
                 <a class="title-wrapper__title info-title" href="product.html">
                   <p class="info-title__title">Cat Energy SLIM <span>500 г</span></p>
                 </a>
                 <ul class="title-wrapper__list info-list">
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Масса</p>
-                    <p class="info-item__definition">500 г</p>
+                    <p class="info-item__definition catalog-item__definition">500 г</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Вкус</p>
-                    <p class="info-item__definition">Гречка</p>
+                    <p class="info-item__definition catalog-item__definition">Гречка</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Цена</p>
-                    <p class="info-item__definition">400 р.</p>
+                    <p class="info-item__definition catalog-item__definition">400 р.</p>
                   </li>
                 </ul>
               </div>
@@ -237,25 +235,25 @@
                   <source type="image/webp" srcset="img/buckwheat-1000.webp 1x, img/buckwheat-1000@2x.webp 2x" width="84" height="100">
                   <source media="(min-width: 1440px)" srcset="img/buckwheat-1000-desktop.png 1x, img/buckwheat-1000-desktop@2x.png 2x" width="172" height="196">
                   <source media="(min-width: 768px)" srcset="img/buckwheat-1000-tablet.png 1x, img/buckwheat-1000-tablet@2x.png 2x" width="168" height="200">
-                  <img class="card-img__img" src="img/buckwheat-1000.png" srcset="img/buckwheat-1000.png 1x, img/buckwheat-1000@2x.png 2x" width="84" height="100" alt="Куриный вкус 500 грамм.">
+                  <img class="card-img__img catalog-item__img" src="img/buckwheat-1000.png" srcset="img/buckwheat-1000.png 1x, img/buckwheat-1000@2x.png 2x" width="84" height="100" alt="Куриный вкус 500 грамм.">
                 </picture>
               </a>
-              <div class="item-wrapper__title title-wrapper">
+              <div class="item-wrapper__title catalog-item__title-wrapper title-wrapper">
                 <a class="title-wrapper__title info-title" href="product.html">
                   <p class="info-title__title">Cat Energy SLIM <span>1000 г</span></p>
                 </a>
                 <ul class="title-wrapper__list info-list">
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Масса</p>
-                    <p class="info-item__definition">1000 г</p>
+                    <p class="info-item__definition catalog-item__definition">1000 г</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Вкус</p>
-                    <p class="info-item__definition">Гречка</p>
+                    <p class="info-item__definition catalog-item__definition">Гречка</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Цена</p>
-                    <p class="info-item__definition">700 р.</p>
+                    <p class="info-item__definition catalog-item__definition">700 р.</p>
                   </li>
                 </ul>
               </div>
@@ -270,25 +268,25 @@
                   <source type="image/webp" media="(min-width: 768px)" srcset="img/rice-500-tablet.webp 1x, img/rice-500-tablet@2x.webp 2x" width="163" height="174">
                   <source type="image/webp" srcset="img/rice-500.webp 1x, img/rice-500@2x.webp 2x" width="72" height="84">
                   <source media="(min-width: 768px)" srcset="img/rice-500-tablet.png 1x, img/rice-500-tablet@2x.png 2x" width="163" height="174">
-                  <img class="card-img__img" src="img/rice-500.png" srcset="img/rice-500.png 1x, img/rice-500@2x.png 2x" width="72" height="84" alt="Куриный вкус 500 грамм.">
+                  <img class="card-img__img catalog-item__img" src="img/rice-500.png" srcset="img/rice-500.png 1x, img/rice-500@2x.png 2x" width="72" height="84" alt="Куриный вкус 500 грамм.">
                 </picture>
               </a>
-              <div class="item-wrapper__title title-wrapper">
+              <div class="item-wrapper__title catalog-item__title-wrapper title-wrapper">
                 <a class="title-wrapper__title info-title" href="product.html">
                   <p class="info-title__title">Cat Energy SLIM <span>500 г</span></p>
                 </a>
                 <ul class="title-wrapper__list info-list">
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Масса</p>
-                    <p class="info-item__definition">500 г</p>
+                    <p class="info-item__definition catalog-item__definition">500 г</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Вкус</p>
-                    <p class="info-item__definition">Рис</p>
+                    <p class="info-item__definition catalog-item__definition">Рис</p>
                   </li>
-                  <li class="info-list__item info-item">
+                  <li class="info-list__item catalog-item__info-item info-item">
                     <p class="info-item__term">Цена</p>
-                    <p class="info-item__definition">500 р.</p>
+                    <p class="info-item__definition catalog-item__definition">500 р.</p>
                   </li>
                 </ul>
               </div>
@@ -321,8 +319,8 @@
             <li class="additional-list__item additional-item">
               <h3 class="additional-item__title">Сахарозаменитель</h3>
               <div class="additional-item__list search-list">
-                <p class="search-list__term">1 упаковка (100 г)</p>
-                <p class="search-list__definition">200 р.</p>
+                <p class="search-list__term additional-item__term">1 упаковка (100 г)</p>
+                <p class="search-list__definition additional-item__definition">200 р.</p>
               </div>
               <a class="additional-item__button button additional-button" href="order.html">Заказать</a>
             </li>
@@ -330,8 +328,8 @@
             <li class="additional-list__item additional-item">
               <h3 class="additional-item__title">Питьевая вода</h3>
               <div class="additional-item__list search-list">
-                <p class="search-list__term">5 литров</p>
-                <p class="search-list__definition">50 р.</p>
+                <p class="search-list__term additional-item__term">5 литров</p>
+                <p class="search-list__definition additional-item__definition">50 р.</p>
               </div>
               <a class="additional-item__button button additional-button" href="order.html">Заказать</a>
             </li>
@@ -339,8 +337,8 @@
             <li class="additional-list__item additional-item">
               <h3 class="additional-item__title">Молоко</h3>
               <div class="additional-item__list search-list">
-                <p class="search-list__term">1 литр</p>
-                <p class="search-list__definition">100 р.</p>
+                <p class="search-list__term additional-item__term">1 литр</p>
+                <p class="search-list__definition additional-item__definition">100 р.</p>
               </div>
               <a class="additional-item__button button additional-button" href="order.html">Заказать</a>
             </li>
@@ -348,8 +346,8 @@
             <li class="additional__item additional-item">
               <h3 class="additional-item__title">Витамины</h3>
               <div class="additional-item__list search-list">
-                <p class="search-list__term">1 упаковка (30 г)</p>
-                <p class="search-list__definition">300 р.</p>
+                <p class="search-list__term additional-item__term">1 упаковка (30 г)</p>
+                <p class="search-list__definition additional-item__definition">300 р.</p>
               </div>
               <a class="additional-item__button button additional-button" href="order.html">Заказать</a>
             </li>
